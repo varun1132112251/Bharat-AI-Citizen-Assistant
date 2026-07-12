@@ -12,3 +12,8 @@ frontend/node_modules/
 
 # VS Code
 .vscode/
+# Python cache
+__pycache__/
+
+# Environment
+*.env
