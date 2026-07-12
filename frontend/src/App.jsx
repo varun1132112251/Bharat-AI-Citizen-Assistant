@@ -1,14 +1,21 @@
 import { useState } from "react";
 import "./App.css";
 
+import ChatHeader from "./components/ChatHeader";
+import ChatWindow from "./components/ChatWindow";
+import ChatInput from "./components/ChatInput";
+import { speak } from "./services/ttsService";
+
 function App() {
   const [message, setMessage] = useState("");
+  const [language, setLanguage] = useState("en-IN");
+
   const [chat, setChat] = useState([
     {
-       sender: "AI",
-    text: "Hello! I am Bharat AI Citizen Assistant. How can I help you today?"
-  }
-]);
+      sender: "AI",
+      text: "Hello! I am Bharat AI Citizen Assistant. How can I help you today?",
+    },
+  ]);
 
   async function handleSend() {
     if (message.trim() === "") return;
@@ -37,6 +44,9 @@ function App() {
       });
 
       const data = await response.json();
+      // 🔊 Speak the AI response
+       speak(data.reply, language);
+
 
       setChat((prev) => [
         ...prev,
@@ -58,25 +68,23 @@ function App() {
 
   return (
     <div className="container">
-      <h1>Bharat AI Citizen Assistant</h1>
+      <div className="chat-app">
 
-      <div className="chat-box">
-        {chat.map((item, index) => (
-          <p key={index}>
-            <strong>{item.sender}:</strong> {item.text}
-          </p>
-        ))}
-      </div>
-
-      <div className="input-area">
-        <input
-          type="text"
-          placeholder="Type your message..."
-          value={message}
-          onChange={(e) => setMessage(e.target.value)}
+        <ChatHeader 
+        language={language}
+        setLanguage={setLanguage}
+        
         />
 
-        <button onClick={handleSend}>Send</button>
+        <ChatWindow chat={chat} />
+
+        <ChatInput
+          message={message}
+          setMessage={setMessage}
+          handleSend={handleSend}
+          language={language}
+        />
+
       </div>
     </div>
   );
