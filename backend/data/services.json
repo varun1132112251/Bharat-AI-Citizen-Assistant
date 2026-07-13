@@ -1,0 +1,43 @@
+[
+  {
+    "service": "PAN Card",
+    "description": "Permanent Account Number issued by the Income Tax Department.",
+    "eligibility": "Any Indian citizen or entity requiring a PAN.",
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Address Proof",
+      "Passport-size Photograph"
+    ],
+    "fees": "₹107 (may vary)",
+    "processing_time": "15–20 working days",
+    "official_website": "https://www.onlineservices.nsdl.com"
+  },
+  {
+    "service": "Aadhaar Card",
+    "description": "Unique Identity Number issued by UIDAI.",
+    "eligibility": "Residents of India.",
+    "documents": [
+      "Proof of Identity",
+      "Proof of Address",
+      "Proof of Date of Birth"
+    ],
+    "fees": "Free for new enrolment",
+    "processing_time": "Up to 90 days",
+    "official_website": "https://uidai.gov.in"
+  },
+  {
+    "service": "Passport",
+    "description": "Official travel document issued by the Government of India.",
+    "eligibility": "Indian citizens.",
+    "documents": [
+      "Aadhaar Card",
+      "Birth Certificate",
+      "Address Proof",
+      "Passport-size Photograph"
+    ],
+    "fees": "Depends on passport type",
+    "processing_time": "7–30 days",
+    "official_website": "https://passportindia.gov.in"
+  }
+]

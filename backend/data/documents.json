@@ -1,0 +1,84 @@
+[
+  {
+    "document": "Aadhaar Card",
+    "purpose": "Proof of identity and address for government and private services.",
+    "required_for": [
+      "PAN Card",
+      "Passport",
+      "Bank Account",
+      "SIM Card",
+      "Government Schemes"
+    ],
+    "required_documents": [
+      "Proof of Identity",
+      "Proof of Address",
+      "Proof of Date of Birth"
+    ],
+    "processing_time": "Up to 90 days",
+    "fees": "Free for first enrolment",
+    "official_website": "https://uidai.gov.in"
+  },
+  {
+    "document": "PAN Card",
+    "purpose": "Tax identification issued by the Income Tax Department.",
+    "required_for": [
+      "Income Tax Filing",
+      "Bank Account",
+      "Financial Transactions"
+    ],
+    "required_documents": [
+      "Identity Proof",
+      "Address Proof",
+      "Passport-size Photograph"
+    ],
+    "processing_time": "15–20 working days",
+    "fees": "₹107 (may vary)",
+    "official_website": "https://www.onlineservices.nsdl.com"
+  },
+  {
+    "document": "Passport",
+    "purpose": "Official international travel document.",
+    "required_for": [
+      "International Travel",
+      "Visa Applications"
+    ],
+    "required_documents": [
+      "Aadhaar Card",
+      "Birth Certificate",
+      "Address Proof"
+    ],
+    "processing_time": "7–30 days",
+    "fees": "Depends on passport type",
+    "official_website": "https://passportindia.gov.in"
+  },
+  {
+    "document": "Voter ID",
+    "purpose": "Identity proof and voting in elections.",
+    "required_for": [
+      "Voting",
+      "Identity Proof"
+    ],
+    "required_documents": [
+      "Age Proof",
+      "Address Proof"
+    ],
+    "processing_time": "2–4 weeks",
+    "fees": "Free",
+    "official_website": "https://voters.eci.gov.in"
+  },
+  {
+    "document": "Driving Licence",
+    "purpose": "Legal authorization to drive vehicles in India.",
+    "required_for": [
+      "Driving Vehicles"
+    ],
+    "required_documents": [
+      "Learner Licence",
+      "Address Proof",
+      "Age Proof"
+    ],
+    "processing_time": "2–6 weeks",
+    "fees": "Varies by state",
+    "official_website": "https://parivahan.gov.in"
+  }
+]

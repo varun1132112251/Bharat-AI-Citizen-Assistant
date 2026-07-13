@@ -5,9 +5,12 @@ import ChatHeader from "./components/ChatHeader";
 import ChatWindow from "./components/ChatWindow";
 import ChatInput from "./components/ChatInput";
 import { speak } from "./services/ttsService";
+import { getChecklist } from "./services/checklistService";
+import ChecklistCard from "./components/ChecklistCard";
 
 function App() {
   const [message, setMessage] = useState("");
+  const [checklist, setChecklist] = useState(null);
   const [language, setLanguage] = useState("en-IN");
 
   const [chat, setChat] = useState([
@@ -44,6 +47,8 @@ function App() {
       });
 
       const data = await response.json();
+      const checklistData = await getChecklist(userMessage);
+       setChecklist(checklistData);
       // 🔊 Speak the AI response
        speak(data.reply, language);
 
@@ -77,7 +82,7 @@ function App() {
         />
 
         <ChatWindow chat={chat} />
-
+        {checklist && <ChecklistCard data={checklist} />}
         <ChatInput
           message={message}
           setMessage={setMessage}
