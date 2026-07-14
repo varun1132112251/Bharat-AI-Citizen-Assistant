@@ -1,199 +1,346 @@
-# 🇮🇳 Bharat AI Citizen Assistant
+🇮🇳 Bharat AI Citizen Assistant
 
-> An AI-powered digital assistant designed to help Indian citizens access government services, schemes, and official information through a simple conversational interface.
+«An AI-powered digital assistant that simplifies access to Indian government services, schemes, and documentation for every citizen.»
 
-![Status](https://img.shields.io/badge/Status-Under%20Development-orange)
-![React](https://img.shields.io/badge/Frontend-React-blue)
-![FastAPI](https://img.shields.io/badge/Backend-FastAPI-green)
-![Python](https://img.shields.io/badge/Python-3.13-yellow)
-![Gemini](https://img.shields.io/badge/AI-Google%20Gemini-red)
-![License](https://img.shields.io/badge/License-MIT-purple)
-
----
-
-# 📌 Project Overview
-
-Bharat AI Citizen Assistant is an AI-powered web application built to simplify access to Indian government services.
-
-Instead of searching multiple government websites, citizens can ask questions in natural language and receive clear, easy-to-understand guidance.
-
-This project is being developed as part of a hackathon with the goal of making government information more accessible, faster, and easier to understand for everyone.
+"Status" (https://img.shields.io/badge/Status-MVP-success)
+"React" (https://img.shields.io/badge/Frontend-React-blue)
+"FastAPI" (https://img.shields.io/badge/Backend-FastAPI-green)
+"OpenRouter" (https://img.shields.io/badge/AI-OpenRouter-orange)
+"License" (https://img.shields.io/badge/License-MIT-yellow)
 
 ---
 
-# ✨ Current Features
+📖 Overview
 
-- 🤖 AI-powered chatbot using Google Gemini
-- 💬 Real-time chat interface
-- ⚡ FastAPI backend
-- ⚛️ React frontend
-- 🔐 Secure API key management using `.env`
-- 🔄 Frontend ↔ Backend communication
-- 📦 GitHub version control
+Bharat AI Citizen Assistant is an AI-powered web application designed to bridge the gap between citizens and government services.
+
+Many citizens struggle to understand government schemes, eligibility requirements, required documents, and application procedures. This project provides a conversational AI interface that offers personalized guidance, explains government schemes, generates document checklists, and assists users through every step of the application process.
+
+The goal is to make government services simple, accessible, and available in natural language.
 
 ---
 
-# 🚀 Planned Features
+🚀 Problem Statement
 
-## 🏛 Government Services
-- Income Certificate Guidance
-- Caste Certificate Guidance
-- Birth Certificate Information
-- Death Certificate Information
-- Passport Assistance
-- Aadhaar Support
-- PAN Card Guidance
-- Driving Licence Assistance
+Citizens often face challenges such as:
 
-## 📋 Government Schemes
-- Scheme Recommendation
-- Eligibility Checker
-- Required Documents
-- Application Process
+- Difficulty finding the right government scheme
+- Complex eligibility criteria
+- Confusing documentation requirements
+- Lack of proper guidance during applications
+- Limited awareness of available benefits
+- Language barriers while accessing services
 
-## 🌐 Multilingual Support
+---
+
+💡 Solution
+
+Bharat AI Citizen Assistant acts as an intelligent virtual assistant that:
+
+- Understands user queries in natural language
+- Recommends suitable government schemes
+- Explains eligibility criteria
+- Generates personalized document checklists
+- Provides step-by-step application guidance
+- Supports voice-based interaction
+- Makes government information easier to understand
+
+---
+
+✨ Features
+
+🤖 AI Chat Assistant
+
+- Natural language conversation
+- Instant responses
+- Context-aware assistance
+
+---
+
+🏛 Government Scheme Recommendation
+
+Provides recommendations for schemes such as:
+
+- PM Kisan
+- Kisan Credit Card (KCC)
+- Crop Insurance
+- Soil Health Card
+- Other government welfare schemes
+
+---
+
+📄 Smart Document Checklist
+
+Automatically generates:
+
+- Required documents
+- Optional documents
+- Important notes
+- Submission guidance
+
+---
+
+📝 Step-by-Step Guidance
+
+Explains:
+
+- Eligibility
+- Registration process
+- Required documents
+- Application procedure
+
+---
+
+🎤 Voice Input
+
+Users can interact using speech instead of typing.
+
+---
+
+🔊 Voice Output
+
+AI responses can be spoken aloud for improved accessibility.
+
+---
+
+🌐 Multilingual Ready
+
+Designed to support multiple Indian languages including:
+
 - English
 - Hindi
 - Telugu
-
-## 🎤 AI Voice Assistant
-- Voice Input
-- Voice Response
-- Speech Recognition
-
-## 📄 Smart Document Assistance
-- Required Document Checklist
-- Application Guidance
-- Step-by-step Instructions
-
-## 📍 Location Services
-- Nearby Government Offices
-- Service Centers
-- Emergency Contacts
-
-## 🎨 UI Improvements
-- Dark Mode
-- Chat Animations
-- Responsive Design
-- Professional Dashboard
+- Tamil
+- Kannada
+- Bengali
 
 ---
 
-# 🛠 Tech Stack
+🎨 Modern User Interface
 
-## Frontend
+- Clean layout
+- Responsive design
+- Recommendation cards
+- Summary cards
+- User-friendly experience
 
-- React.js
+---
+
+🛠 Tech Stack
+
+Frontend
+
+- React
 - Vite
 - JavaScript
-- CSS
+- HTML5
+- CSS3
+- Axios
 
-## Backend
+---
 
-- Python
+Backend
+
 - FastAPI
+- Python
 - Uvicorn
 
-## AI
+---
 
-- Google Gemini API
+AI
 
-## Version Control
+- OpenRouter API
+- Gemini 2.5 Flash
 
+---
+
+Development Tools
+
+- VS Code
 - Git
 - GitHub
+- npm
 
 ---
 
-# 📂 Project Structure
+📂 Project Structure
 
-```
-Bharat-AI-Citizen-Assistant
+bharat-ai-citizen-assistant/
+
 │
-├── backend
+├── frontend/
+│   ├── src/
+│   ├── public/
+│   ├── package.json
+│   └── vite.config.js
+│
+├── backend/
 │   ├── main.py
-│   ├── .env
-│   └── venv
-│
-├── frontend
-│   ├── src
-│   ├── public
-│   └── package.json
+│   ├── requirements.txt
+│   └── .env
 │
 ├── .gitignore
-└── README.md
-```
+├── README.md
+└── LICENSE
 
 ---
 
-# ⚙️ Installation
+⚙️ Installation
 
-## Clone Repository
+1. Clone the repository
 
-```bash
-git clone https://github.com/varun1132112251/Bharat-AI-Citizen-Assistant.git
-```
+git clone https://github.com/your-username/bharat-ai-citizen-assistant.git
 
-## Frontend
+---
 
-```bash
+2. Move into the project
+
+cd bharat-ai-citizen-assistant
+
+---
+
+3. Frontend Setup
+
 cd frontend
+
 npm install
+
 npm run dev
-```
 
-## Backend
+---
 
-```bash
-cd backend
+4. Backend Setup
+
+Create a virtual environment
 
 python -m venv venv
 
+Activate it
+
+Windows
+
 venv\Scripts\activate
+
+Install dependencies
 
 pip install -r requirements.txt
 
+Run FastAPI
+
 uvicorn main:app --reload
-```
 
 ---
 
-# 📅 Development Status
+5. Environment Variables
 
-| Feature | Status |
-|----------|--------|
-| React Frontend | ✅ Completed |
-| FastAPI Backend | ✅ Completed |
-| Gemini Integration | ✅ Completed |
-| GitHub Setup | ✅ Completed |
-| Government Services | 🚧 In Progress |
-| Scheme Recommendation | ⏳ Planned |
-| Voice Assistant | ⏳ Planned |
-| Multilingual Support | ⏳ Planned |
-| Deployment | ⏳ Planned |
+Create a ".env" file inside the backend folder.
+
+OPENROUTER_API_KEY=YOUR_API_KEY
 
 ---
 
-# 🎯 Project Vision
+📸 Screenshots
 
-Our vision is to create a single AI assistant capable of helping every Indian citizen access government services quickly, accurately, and efficiently.
+Add screenshots here after completing the project.
 
-The assistant aims to reduce confusion, simplify procedures, and improve accessibility through conversational AI.
+Example:
+
+screenshots/
+
+Home.png
+
+Chat.png
+
+Recommendations.png
+
+Voice.png
 
 ---
 
-# 👨‍💻 Developer
+🎯 Use Cases
 
-**Mahesh (GitHub: varun1132112251)**
-
-Built with ❤️ using React, FastAPI, and Google Gemini.
+- Farmers
+- Students
+- Senior Citizens
+- Job Seekers
+- Rural Citizens
+- Government Service Applicants
+- First-time Users of Government Schemes
 
 ---
 
-# 📄 License
+🔮 Future Enhancements
+
+- OCR-based document verification
+- Real-time government portal integration
+- Application status tracking
+- Aadhaar authentication
+- DigiLocker integration
+- Nearby government office locator
+- AI-powered form auto-fill
+- Personalized citizen dashboard
+- Mobile application
+- Offline support
+
+---
+
+📈 Current Project Status
+
+✅ MVP Completed
+
+Implemented Features:
+
+- AI Chat Assistant
+- Government Scheme Recommendation
+- Smart Document Checklist
+- Voice Input
+- Voice Output
+- Frontend–Backend Integration
+- Responsive UI
+- OpenRouter + Gemini Integration
+
+---
+
+🤝 Contributing
+
+Contributions, suggestions, and improvements are welcome.
+
+1. Fork the repository.
+2. Create a new branch.
+3. Commit your changes.
+4. Push the branch.
+5. Open a Pull Request.
+
+---
+
+👨‍💻 Developer
+
+Varun
+
+B.Tech CSM Student
+
+ACE Engineering College
+
+Passionate about AI, Machine Learning, and building impactful products for society.
+
+---
+
+📄 License
 
 This project is licensed under the MIT License.
 
 ---
 
-⭐ If you found this project interesting, consider giving it a star on GitHub!
+⭐ Support
+
+If you found this project helpful:
+
+⭐ Star the repository
+
+🍴 Fork it
+
+💬 Share your feedback
+
+---
+
+«"Empowering every citizen with AI-driven access to government services."»
