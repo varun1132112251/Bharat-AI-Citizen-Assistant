@@ -5,19 +5,18 @@ import ChatHeader from "./components/ChatHeader";
 import ChatWindow from "./components/ChatWindow";
 import ChatInput from "./components/ChatInput";
 import { speak } from "./services/ttsService";
-import { getChecklist } from "./services/checklistService";
 import ChecklistCard from "./components/ChecklistCard";
 import RecommendationCards from "./components/RecommendationCards";
-import { getRecommendations } from "./services/recommendationService";
-import { getRecommendationSummary } from "./services/summaryService";
 import RecommendationSummary from "./components/RecommendationSummary";
 import QuickActions from "./components/QuickActions";
 function App() {
   const [message, setMessage] = useState("");
   const [checklist, setChecklist] = useState(null);
   const [language, setLanguage] = useState("en-IN");
+  const [loading, setLoading] = useState(false);
   const [recommendations, setRecommendations] = useState([]);
   const [summary, setSummary] = useState("");
+  const [showQuickActions, setShowQuickActions] = useState(true);
   const [chat, setChat] = useState([
     {
       sender: "AI",
@@ -33,8 +32,13 @@ function App() {
   }
 
   async function handleSend(customMessage = null) {
-    const userMessage = customMessage || message;
+    const userMessage =
+      typeof customMessage === "string"
+        ? customMessage
+        : message;
     if (userMessage.trim() === "") return;
+    setShowQuickActions(false);
+    setLoading(true);
     
 
     setChat((prev) => [
@@ -48,7 +52,7 @@ function App() {
     setMessage("");
 
     try {
-      const response = await fetch("http://127.0.0.1:8000/chat", {
+      const response = await fetch("http://127.0.0.1:8000/assistant", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -57,28 +61,14 @@ function App() {
           message: userMessage,
         }),
       });
-
       const data = await response.json();
-      const checklistData = await getChecklist(userMessage);
-       setChecklist(checklistData);
-      const recommendationData =
-        await getRecommendations(userMessage);
+      setSummary(data.summary || "");
 
-      if (recommendationData.success) {
-        setRecommendations(
-          recommendationData.recommendations
-        );
-      } else {
-        setRecommendations([]);
-      } 
-      const summaryData =
-          await getRecommendationSummary(userMessage);
+      setRecommendations(
+          data.recommendations || []
+      );
 
-      if (summaryData.success) {
-        setSummary(summaryData.summary);
-      } else {
-        setSummary("");
-      }
+      setChecklist(data.checklist || null);
       // 🔊 Speak the AI response
        speak(data.reply, language);
 
@@ -90,6 +80,7 @@ function App() {
           text: data.reply,
         },
       ]);
+      setLoading(false);
     } catch (error) {
       setChat((prev) => [
         ...prev,
@@ -98,6 +89,7 @@ function App() {
           text: "Error connecting to backend.",
         },
       ]);
+      setLoading(false);
     }
   }
 
@@ -110,28 +102,49 @@ function App() {
         setLanguage={setLanguage}
         
         />
-        <QuickActions
-          onSelect={handleQuickAction}
-        />
+        {showQuickActions ? (
+          <QuickActions onSelect={handleQuickAction} />
+        ) : (
+          <div className="quick-toggle">
+            <button
+              className="show-actions-btn"
+              onClick={() => setShowQuickActions(true)}
+            >
+              ⚡ Show Quick Actions
+            </button>
+          </div>
+        )}
 
-        <ChatWindow chat={chat} />
+        <div className="main-content">
+
+          <ChatWindow
+            chat={chat}
+            loading={loading}
+          />
+
         {summary && (
-           <RecommendationSummary summary={summary} />
+          <RecommendationSummary summary={summary} />
         )}
 
         {recommendations.length > 0 && (
-            <RecommendationCards
-                recommendations={recommendations}
-            />
+          <RecommendationCards
+            recommendations={recommendations}
+          />
         )}
-        {checklist && <ChecklistCard data={checklist} />}
-        <ChatInput
-          message={message}
-          setMessage={setMessage}
-          handleSend={handleSend}
-          language={language}
-        />
 
+        {checklist && (
+          <ChecklistCard data={checklist} />
+        )}
+
+      </div>
+
+      <ChatInput
+        message={message}
+        setMessage={setMessage}
+        handleSend={handleSend}
+        language={language}
+        loading={loading}
+      />
       </div>
     </div>
   );

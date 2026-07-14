@@ -1,1 +1,626 @@
-[]
+[
+  {
+    "id": "EM001",
+    "name": "Pradhan Mantri Kaushal Vikas Yojana (PMKVY)",
+    "category": "Employment",
+    "subcategory": "Skill Development",
+    "ministry": "Ministry of Skill Development and Entrepreneurship",
+    "description": "Pradhan Mantri Kaushal Vikas Yojana (PMKVY) is a Government of India initiative supporting employment, skill development, apprenticeships or self-employment.",
+    "benefits": [
+      "Employment or livelihood support",
+      "Skill development or training",
+      "Financial assistance where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Educational Qualification (if applicable)",
+      "Bank Account (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://www.pmkvyofficial.org",
+    "keywords": [
+      "skill",
+      "training",
+      "pmkvy"
+    ],
+    "target_groups": [
+      "Job Seekers",
+      "Students",
+      "Workers"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "EM002",
+    "name": "National Career Service (NCS)",
+    "category": "Employment",
+    "subcategory": "Employment Services",
+    "ministry": "Ministry of Labour and Employment",
+    "description": "National Career Service (NCS) is a Government of India initiative supporting employment, skill development, apprenticeships or self-employment.",
+    "benefits": [
+      "Employment or livelihood support",
+      "Skill development or training",
+      "Financial assistance where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Educational Qualification (if applicable)",
+      "Bank Account (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://www.ncs.gov.in",
+    "keywords": [
+      "jobs",
+      "employment",
+      "career"
+    ],
+    "target_groups": [
+      "Job Seekers",
+      "Students",
+      "Workers"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "EM003",
+    "name": "Deen Dayal Upadhyaya Grameen Kaushalya Yojana (DDU-GKY)",
+    "category": "Employment",
+    "subcategory": "Rural Employment",
+    "ministry": "Ministry of Rural Development",
+    "description": "Deen Dayal Upadhyaya Grameen Kaushalya Yojana (DDU-GKY) is a Government of India initiative supporting employment, skill development, apprenticeships or self-employment.",
+    "benefits": [
+      "Employment or livelihood support",
+      "Skill development or training",
+      "Financial assistance where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Educational Qualification (if applicable)",
+      "Bank Account (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://ddugky.gov.in",
+    "keywords": [
+      "rural",
+      "skill"
+    ],
+    "target_groups": [
+      "Job Seekers",
+      "Students",
+      "Workers"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "EM004",
+    "name": "Mahatma Gandhi National Rural Employment Guarantee Scheme (MGNREGS)",
+    "category": "Employment",
+    "subcategory": "Rural Employment",
+    "ministry": "Ministry of Rural Development",
+    "description": "Mahatma Gandhi National Rural Employment Guarantee Scheme (MGNREGS) is a Government of India initiative supporting employment, skill development, apprenticeships or self-employment.",
+    "benefits": [
+      "Employment or livelihood support",
+      "Skill development or training",
+      "Financial assistance where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Educational Qualification (if applicable)",
+      "Bank Account (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://nrega.nic.in",
+    "keywords": [
+      "mgnrega",
+      "100 days"
+    ],
+    "target_groups": [
+      "Job Seekers",
+      "Students",
+      "Workers"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "EM005",
+    "name": "Prime Minister Employment Generation Programme (PMEGP)",
+    "category": "Employment",
+    "subcategory": "Self Employment",
+    "ministry": "Ministry of MSME",
+    "description": "Prime Minister Employment Generation Programme (PMEGP) is a Government of India initiative supporting employment, skill development, apprenticeships or self-employment.",
+    "benefits": [
+      "Employment or livelihood support",
+      "Skill development or training",
+      "Financial assistance where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Educational Qualification (if applicable)",
+      "Bank Account (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://www.kviconline.gov.in/pmegp",
+    "keywords": [
+      "self employment",
+      "loan"
+    ],
+    "target_groups": [
+      "Job Seekers",
+      "Students",
+      "Workers"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "EM006",
+    "name": "Atmanirbhar Skilled Employee Employer Mapping (ASEEM)",
+    "category": "Employment",
+    "subcategory": "Job Matching",
+    "ministry": "Ministry of Skill Development and Entrepreneurship",
+    "description": "Atmanirbhar Skilled Employee Employer Mapping (ASEEM) is a Government of India initiative supporting employment, skill development, apprenticeships or self-employment.",
+    "benefits": [
+      "Employment or livelihood support",
+      "Skill development or training",
+      "Financial assistance where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Educational Qualification (if applicable)",
+      "Bank Account (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://aseem.nsdcindia.org",
+    "keywords": [
+      "aseem",
+      "jobs"
+    ],
+    "target_groups": [
+      "Job Seekers",
+      "Students",
+      "Workers"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "EM007",
+    "name": "Garib Kalyan Rojgar Abhiyaan",
+    "category": "Employment",
+    "subcategory": "Employment",
+    "ministry": "Ministry of Rural Development",
+    "description": "Garib Kalyan Rojgar Abhiyaan is a Government of India initiative supporting employment, skill development, apprenticeships or self-employment.",
+    "benefits": [
+      "Employment or livelihood support",
+      "Skill development or training",
+      "Financial assistance where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Educational Qualification (if applicable)",
+      "Bank Account (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://rural.nic.in",
+    "keywords": [
+      "rojgar"
+    ],
+    "target_groups": [
+      "Job Seekers",
+      "Students",
+      "Workers"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "EM008",
+    "name": "National Apprenticeship Promotion Scheme (NAPS)",
+    "category": "Employment",
+    "subcategory": "Apprenticeship",
+    "ministry": "Ministry of Skill Development and Entrepreneurship",
+    "description": "National Apprenticeship Promotion Scheme (NAPS) is a Government of India initiative supporting employment, skill development, apprenticeships or self-employment.",
+    "benefits": [
+      "Employment or livelihood support",
+      "Skill development or training",
+      "Financial assistance where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Educational Qualification (if applicable)",
+      "Bank Account (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://www.apprenticeshipindia.gov.in",
+    "keywords": [
+      "apprenticeship"
+    ],
+    "target_groups": [
+      "Job Seekers",
+      "Students",
+      "Workers"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "EM009",
+    "name": "National Apprenticeship Training Scheme (NATS)",
+    "category": "Employment",
+    "subcategory": "Apprenticeship",
+    "ministry": "Ministry of Education",
+    "description": "National Apprenticeship Training Scheme (NATS) is a Government of India initiative supporting employment, skill development, apprenticeships or self-employment.",
+    "benefits": [
+      "Employment or livelihood support",
+      "Skill development or training",
+      "Financial assistance where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Educational Qualification (if applicable)",
+      "Bank Account (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://nats.education.gov.in",
+    "keywords": [
+      "nats"
+    ],
+    "target_groups": [
+      "Job Seekers",
+      "Students",
+      "Workers"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "EM010",
+    "name": "Skill India Mission",
+    "category": "Employment",
+    "subcategory": "Skill Development",
+    "ministry": "Ministry of Skill Development and Entrepreneurship",
+    "description": "Skill India Mission is a Government of India initiative supporting employment, skill development, apprenticeships or self-employment.",
+    "benefits": [
+      "Employment or livelihood support",
+      "Skill development or training",
+      "Financial assistance where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Educational Qualification (if applicable)",
+      "Bank Account (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://www.skillindia.gov.in",
+    "keywords": [
+      "skill india"
+    ],
+    "target_groups": [
+      "Job Seekers",
+      "Students",
+      "Workers"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "EM011",
+    "name": "Employment Linked Incentive Scheme",
+    "category": "Employment",
+    "subcategory": "Employment Incentive",
+    "ministry": "Ministry of Labour and Employment",
+    "description": "Employment Linked Incentive Scheme is a Government of India initiative supporting employment, skill development, apprenticeships or self-employment.",
+    "benefits": [
+      "Employment or livelihood support",
+      "Skill development or training",
+      "Financial assistance where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Educational Qualification (if applicable)",
+      "Bank Account (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://labour.gov.in",
+    "keywords": [
+      "employment"
+    ],
+    "target_groups": [
+      "Job Seekers",
+      "Students",
+      "Workers"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "EM012",
+    "name": "Rozgar Mela",
+    "category": "Employment",
+    "subcategory": "Recruitment",
+    "ministry": "Government of India",
+    "description": "Rozgar Mela is a Government of India initiative supporting employment, skill development, apprenticeships or self-employment.",
+    "benefits": [
+      "Employment or livelihood support",
+      "Skill development or training",
+      "Financial assistance where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Educational Qualification (if applicable)",
+      "Bank Account (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://rozgarmela-dopt.gov.in",
+    "keywords": [
+      "recruitment"
+    ],
+    "target_groups": [
+      "Job Seekers",
+      "Students",
+      "Workers"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "EM013",
+    "name": "SANKALP",
+    "category": "Employment",
+    "subcategory": "Skill Development",
+    "ministry": "Ministry of Skill Development and Entrepreneurship",
+    "description": "SANKALP is a Government of India initiative supporting employment, skill development, apprenticeships or self-employment.",
+    "benefits": [
+      "Employment or livelihood support",
+      "Skill development or training",
+      "Financial assistance where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Educational Qualification (if applicable)",
+      "Bank Account (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://www.msde.gov.in",
+    "keywords": [
+      "sankalp"
+    ],
+    "target_groups": [
+      "Job Seekers",
+      "Students",
+      "Workers"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "EM014",
+    "name": "STRIVE",
+    "category": "Employment",
+    "subcategory": "Vocational Training",
+    "ministry": "Ministry of Skill Development and Entrepreneurship",
+    "description": "STRIVE is a Government of India initiative supporting employment, skill development, apprenticeships or self-employment.",
+    "benefits": [
+      "Employment or livelihood support",
+      "Skill development or training",
+      "Financial assistance where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Educational Qualification (if applicable)",
+      "Bank Account (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://www.msde.gov.in",
+    "keywords": [
+      "strive"
+    ],
+    "target_groups": [
+      "Job Seekers",
+      "Students",
+      "Workers"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "EM015",
+    "name": "PM Vishwakarma",
+    "category": "Employment",
+    "subcategory": "Traditional Artisans",
+    "ministry": "Ministry of MSME",
+    "description": "PM Vishwakarma is a Government of India initiative supporting employment, skill development, apprenticeships or self-employment.",
+    "benefits": [
+      "Employment or livelihood support",
+      "Skill development or training",
+      "Financial assistance where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Educational Qualification (if applicable)",
+      "Bank Account (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://pmvishwakarma.gov.in",
+    "keywords": [
+      "artisan",
+      "craft"
+    ],
+    "target_groups": [
+      "Job Seekers",
+      "Students",
+      "Workers"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  }
+]

@@ -1,1 +1,804 @@
-[]
+[
+  {
+    "id": "ED001",
+    "name": "National Scholarship Portal (NSP)",
+    "category": "Education",
+    "subcategory": "Scholarship",
+    "ministry": "Ministry of Electronics and Information Technology",
+    "description": "National Scholarship Portal (NSP) is a Government of India initiative supporting education and student development.",
+    "benefits": [
+      "Financial or academic support",
+      "Government-backed initiative",
+      "Improved educational opportunities"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Academic Records",
+      "Bank Account (if applicable)"
+    ],
+    "application_mode": "Online",
+    "official_link": "https://scholarships.gov.in",
+    "keywords": [
+      "scholarship",
+      "student",
+      "education",
+      "nsp"
+    ],
+    "target_groups": [
+      "Students"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "ED002",
+    "name": "Central Sector Scheme of Scholarships",
+    "category": "Education",
+    "subcategory": "Higher Education Scholarship",
+    "ministry": "Department of Higher Education",
+    "description": "Central Sector Scheme of Scholarships is a Government of India initiative supporting education and student development.",
+    "benefits": [
+      "Financial or academic support",
+      "Government-backed initiative",
+      "Improved educational opportunities"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Academic Records",
+      "Bank Account (if applicable)"
+    ],
+    "application_mode": "Online",
+    "official_link": "https://scholarships.gov.in",
+    "keywords": [
+      "college",
+      "university",
+      "merit"
+    ],
+    "target_groups": [
+      "Students"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "ED003",
+    "name": "AICTE Pragati Scholarship",
+    "category": "Education",
+    "subcategory": "Girls Scholarship",
+    "ministry": "AICTE",
+    "description": "AICTE Pragati Scholarship is a Government of India initiative supporting education and student development.",
+    "benefits": [
+      "Financial or academic support",
+      "Government-backed initiative",
+      "Improved educational opportunities"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Academic Records",
+      "Bank Account (if applicable)"
+    ],
+    "application_mode": "Online",
+    "official_link": "https://www.aicte-india.org",
+    "keywords": [
+      "girls",
+      "engineering",
+      "pragati"
+    ],
+    "target_groups": [
+      "Students"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "ED004",
+    "name": "AICTE Saksham Scholarship",
+    "category": "Education",
+    "subcategory": "Disability Scholarship",
+    "ministry": "AICTE",
+    "description": "AICTE Saksham Scholarship is a Government of India initiative supporting education and student development.",
+    "benefits": [
+      "Financial or academic support",
+      "Government-backed initiative",
+      "Improved educational opportunities"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Academic Records",
+      "Bank Account (if applicable)"
+    ],
+    "application_mode": "Online",
+    "official_link": "https://www.aicte-india.org",
+    "keywords": [
+      "disability",
+      "saksham"
+    ],
+    "target_groups": [
+      "Students"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "ED005",
+    "name": "PM-YASASVI Scholarship",
+    "category": "Education",
+    "subcategory": "Scholarship",
+    "ministry": "Ministry of Social Justice and Empowerment",
+    "description": "PM-YASASVI Scholarship is a Government of India initiative supporting education and student development.",
+    "benefits": [
+      "Financial or academic support",
+      "Government-backed initiative",
+      "Improved educational opportunities"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Academic Records",
+      "Bank Account (if applicable)"
+    ],
+    "application_mode": "Online",
+    "official_link": "https://yet.nta.ac.in",
+    "keywords": [
+      "yasasvi",
+      "obc"
+    ],
+    "target_groups": [
+      "Students"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "ED006",
+    "name": "National Means-cum-Merit Scholarship (NMMS)",
+    "category": "Education",
+    "subcategory": "School Scholarship",
+    "ministry": "Department of School Education and Literacy",
+    "description": "National Means-cum-Merit Scholarship (NMMS) is a Government of India initiative supporting education and student development.",
+    "benefits": [
+      "Financial or academic support",
+      "Government-backed initiative",
+      "Improved educational opportunities"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Academic Records",
+      "Bank Account (if applicable)"
+    ],
+    "application_mode": "Online",
+    "official_link": "https://scholarships.gov.in",
+    "keywords": [
+      "nmms",
+      "school"
+    ],
+    "target_groups": [
+      "Students"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "ED007",
+    "name": "INSPIRE Scholarship",
+    "category": "Education",
+    "subcategory": "Science Scholarship",
+    "ministry": "Department of Science and Technology",
+    "description": "INSPIRE Scholarship is a Government of India initiative supporting education and student development.",
+    "benefits": [
+      "Financial or academic support",
+      "Government-backed initiative",
+      "Improved educational opportunities"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Academic Records",
+      "Bank Account (if applicable)"
+    ],
+    "application_mode": "Online",
+    "official_link": "https://online-inspire.gov.in",
+    "keywords": [
+      "science",
+      "research"
+    ],
+    "target_groups": [
+      "Students"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "ED008",
+    "name": "Prime Minister's Research Fellowship (PMRF)",
+    "category": "Education",
+    "subcategory": "Research Fellowship",
+    "ministry": "Ministry of Education",
+    "description": "Prime Minister's Research Fellowship (PMRF) is a Government of India initiative supporting education and student development.",
+    "benefits": [
+      "Financial or academic support",
+      "Government-backed initiative",
+      "Improved educational opportunities"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Academic Records",
+      "Bank Account (if applicable)"
+    ],
+    "application_mode": "Online",
+    "official_link": "https://pmrf.in",
+    "keywords": [
+      "pmrf",
+      "phd"
+    ],
+    "target_groups": [
+      "Students"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "ED009",
+    "name": "SWAYAM",
+    "category": "Education",
+    "subcategory": "Online Learning",
+    "ministry": "Ministry of Education",
+    "description": "SWAYAM is a Government of India initiative supporting education and student development.",
+    "benefits": [
+      "Financial or academic support",
+      "Government-backed initiative",
+      "Improved educational opportunities"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Academic Records",
+      "Bank Account (if applicable)"
+    ],
+    "application_mode": "Online",
+    "official_link": "https://swayam.gov.in",
+    "keywords": [
+      "online",
+      "courses"
+    ],
+    "target_groups": [
+      "Students"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "ED010",
+    "name": "NPTEL",
+    "category": "Education",
+    "subcategory": "Online Certification",
+    "ministry": "Ministry of Education",
+    "description": "NPTEL is a Government of India initiative supporting education and student development.",
+    "benefits": [
+      "Financial or academic support",
+      "Government-backed initiative",
+      "Improved educational opportunities"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Academic Records",
+      "Bank Account (if applicable)"
+    ],
+    "application_mode": "Online",
+    "official_link": "https://nptel.ac.in",
+    "keywords": [
+      "nptel",
+      "iit"
+    ],
+    "target_groups": [
+      "Students"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "ED011",
+    "name": "PM SHRI Schools",
+    "category": "Education",
+    "subcategory": "School Education",
+    "ministry": "Ministry of Education",
+    "description": "PM SHRI Schools is a Government of India initiative supporting education and student development.",
+    "benefits": [
+      "Financial or academic support",
+      "Government-backed initiative",
+      "Improved educational opportunities"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Academic Records",
+      "Bank Account (if applicable)"
+    ],
+    "application_mode": "Online",
+    "official_link": "https://pmshrischools.education.gov.in",
+    "keywords": [
+      "pm shri",
+      "schools"
+    ],
+    "target_groups": [
+      "Students"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "ED012",
+    "name": "Samagra Shiksha",
+    "category": "Education",
+    "subcategory": "School Education",
+    "ministry": "Ministry of Education",
+    "description": "Samagra Shiksha is a Government of India initiative supporting education and student development.",
+    "benefits": [
+      "Financial or academic support",
+      "Government-backed initiative",
+      "Improved educational opportunities"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Academic Records",
+      "Bank Account (if applicable)"
+    ],
+    "application_mode": "Online",
+    "official_link": "https://samagrashiksha.education.gov.in",
+    "keywords": [
+      "school",
+      "education"
+    ],
+    "target_groups": [
+      "Students"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "ED013",
+    "name": "UGC Ishan Uday Scholarship",
+    "category": "Education",
+    "subcategory": "Scholarship",
+    "ministry": "UGC",
+    "description": "UGC Ishan Uday Scholarship is a Government of India initiative supporting education and student development.",
+    "benefits": [
+      "Financial or academic support",
+      "Government-backed initiative",
+      "Improved educational opportunities"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Academic Records",
+      "Bank Account (if applicable)"
+    ],
+    "application_mode": "Online",
+    "official_link": "https://www.ugc.gov.in",
+    "keywords": [
+      "ishan uday"
+    ],
+    "target_groups": [
+      "Students"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "ED014",
+    "name": "UGC Single Girl Child Scholarship",
+    "category": "Education",
+    "subcategory": "Scholarship",
+    "ministry": "UGC",
+    "description": "UGC Single Girl Child Scholarship is a Government of India initiative supporting education and student development.",
+    "benefits": [
+      "Financial or academic support",
+      "Government-backed initiative",
+      "Improved educational opportunities"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Academic Records",
+      "Bank Account (if applicable)"
+    ],
+    "application_mode": "Online",
+    "official_link": "https://www.ugc.gov.in",
+    "keywords": [
+      "single girl"
+    ],
+    "target_groups": [
+      "Students"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "ED015",
+    "name": "National Fellowship for OBC Students",
+    "category": "Education",
+    "subcategory": "Fellowship",
+    "ministry": "Ministry of Social Justice and Empowerment",
+    "description": "National Fellowship for OBC Students is a Government of India initiative supporting education and student development.",
+    "benefits": [
+      "Financial or academic support",
+      "Government-backed initiative",
+      "Improved educational opportunities"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Academic Records",
+      "Bank Account (if applicable)"
+    ],
+    "application_mode": "Online",
+    "official_link": "https://socialjustice.gov.in",
+    "keywords": [
+      "obc",
+      "fellowship"
+    ],
+    "target_groups": [
+      "Students"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "ED016",
+    "name": "Post-Matric Scholarship for SC Students",
+    "category": "Education",
+    "subcategory": "Scholarship",
+    "ministry": "Ministry of Social Justice and Empowerment",
+    "description": "Post-Matric Scholarship for SC Students is a Government of India initiative supporting education and student development.",
+    "benefits": [
+      "Financial or academic support",
+      "Government-backed initiative",
+      "Improved educational opportunities"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Academic Records",
+      "Bank Account (if applicable)"
+    ],
+    "application_mode": "Online",
+    "official_link": "https://scholarships.gov.in",
+    "keywords": [
+      "sc",
+      "post matric"
+    ],
+    "target_groups": [
+      "Students"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "ED017",
+    "name": "Pre-Matric Scholarship for Minorities",
+    "category": "Education",
+    "subcategory": "Scholarship",
+    "ministry": "Ministry of Minority Affairs",
+    "description": "Pre-Matric Scholarship for Minorities is a Government of India initiative supporting education and student development.",
+    "benefits": [
+      "Financial or academic support",
+      "Government-backed initiative",
+      "Improved educational opportunities"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Academic Records",
+      "Bank Account (if applicable)"
+    ],
+    "application_mode": "Online",
+    "official_link": "https://scholarships.gov.in",
+    "keywords": [
+      "minority",
+      "pre matric"
+    ],
+    "target_groups": [
+      "Students"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "ED018",
+    "name": "Merit-cum-Means Scholarship for Minorities",
+    "category": "Education",
+    "subcategory": "Scholarship",
+    "ministry": "Ministry of Minority Affairs",
+    "description": "Merit-cum-Means Scholarship for Minorities is a Government of India initiative supporting education and student development.",
+    "benefits": [
+      "Financial or academic support",
+      "Government-backed initiative",
+      "Improved educational opportunities"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Academic Records",
+      "Bank Account (if applicable)"
+    ],
+    "application_mode": "Online",
+    "official_link": "https://scholarships.gov.in",
+    "keywords": [
+      "minority",
+      "merit"
+    ],
+    "target_groups": [
+      "Students"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "ED019",
+    "name": "National Overseas Scholarship",
+    "category": "Education",
+    "subcategory": "Overseas Education",
+    "ministry": "Ministry of Social Justice and Empowerment",
+    "description": "National Overseas Scholarship is a Government of India initiative supporting education and student development.",
+    "benefits": [
+      "Financial or academic support",
+      "Government-backed initiative",
+      "Improved educational opportunities"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Academic Records",
+      "Bank Account (if applicable)"
+    ],
+    "application_mode": "Online",
+    "official_link": "https://nosmsje.gov.in",
+    "keywords": [
+      "overseas",
+      "abroad"
+    ],
+    "target_groups": [
+      "Students"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "ED020",
+    "name": "Vidyanjali Programme",
+    "category": "Education",
+    "subcategory": "School Volunteering",
+    "ministry": "Ministry of Education",
+    "description": "Vidyanjali Programme is a Government of India initiative supporting education and student development.",
+    "benefits": [
+      "Financial or academic support",
+      "Government-backed initiative",
+      "Improved educational opportunities"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Academic Records",
+      "Bank Account (if applicable)"
+    ],
+    "application_mode": "Online",
+    "official_link": "https://vidyanjali.education.gov.in",
+    "keywords": [
+      "vidyanjali",
+      "volunteer"
+    ],
+    "target_groups": [
+      "Students"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  }
+]

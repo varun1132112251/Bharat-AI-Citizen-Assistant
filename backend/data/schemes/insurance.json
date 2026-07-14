@@ -1,1 +1,432 @@
-[]
+[
+  {
+    "id": "IN001",
+    "name": "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)",
+    "category": "Insurance",
+    "subcategory": "Life Insurance",
+    "ministry": "Ministry of Finance",
+    "description": "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY) is a Government of India initiative providing insurance protection or financial security against health, life, accidents, crops or livelihoods.",
+    "benefits": [
+      "Financial protection",
+      "Insurance coverage",
+      "Government-supported benefits where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Bank Account",
+      "Relevant supporting documents (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://jansuraksha.gov.in",
+    "keywords": [
+      "life insurance",
+      "pmjjby"
+    ],
+    "target_groups": [
+      "Citizens",
+      "Farmers",
+      "Workers",
+      "Families"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "IN002",
+    "name": "Pradhan Mantri Suraksha Bima Yojana (PMSBY)",
+    "category": "Insurance",
+    "subcategory": "Accident Insurance",
+    "ministry": "Ministry of Finance",
+    "description": "Pradhan Mantri Suraksha Bima Yojana (PMSBY) is a Government of India initiative providing insurance protection or financial security against health, life, accidents, crops or livelihoods.",
+    "benefits": [
+      "Financial protection",
+      "Insurance coverage",
+      "Government-supported benefits where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Bank Account",
+      "Relevant supporting documents (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://jansuraksha.gov.in",
+    "keywords": [
+      "accident",
+      "pmsby"
+    ],
+    "target_groups": [
+      "Citizens",
+      "Farmers",
+      "Workers",
+      "Families"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "IN003",
+    "name": "Ayushman Bharat PM-JAY",
+    "category": "Insurance",
+    "subcategory": "Health Insurance",
+    "ministry": "Ministry of Health and Family Welfare",
+    "description": "Ayushman Bharat PM-JAY is a Government of India initiative providing insurance protection or financial security against health, life, accidents, crops or livelihoods.",
+    "benefits": [
+      "Financial protection",
+      "Insurance coverage",
+      "Government-supported benefits where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Bank Account",
+      "Relevant supporting documents (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://pmjay.gov.in",
+    "keywords": [
+      "health",
+      "pmjay"
+    ],
+    "target_groups": [
+      "Citizens",
+      "Farmers",
+      "Workers",
+      "Families"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "IN004",
+    "name": "Atal Pension Yojana",
+    "category": "Insurance",
+    "subcategory": "Pension Insurance",
+    "ministry": "Ministry of Finance",
+    "description": "Atal Pension Yojana is a Government of India initiative providing insurance protection or financial security against health, life, accidents, crops or livelihoods.",
+    "benefits": [
+      "Financial protection",
+      "Insurance coverage",
+      "Government-supported benefits where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Bank Account",
+      "Relevant supporting documents (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://www.npscra.nsdl.co.in",
+    "keywords": [
+      "atal pension",
+      "retirement"
+    ],
+    "target_groups": [
+      "Citizens",
+      "Farmers",
+      "Workers",
+      "Families"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "IN005",
+    "name": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
+    "category": "Insurance",
+    "subcategory": "Crop Insurance",
+    "ministry": "Ministry of Agriculture",
+    "description": "Pradhan Mantri Fasal Bima Yojana (PMFBY) is a Government of India initiative providing insurance protection or financial security against health, life, accidents, crops or livelihoods.",
+    "benefits": [
+      "Financial protection",
+      "Insurance coverage",
+      "Government-supported benefits where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Bank Account",
+      "Relevant supporting documents (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://pmfby.gov.in",
+    "keywords": [
+      "crop",
+      "farmer"
+    ],
+    "target_groups": [
+      "Citizens",
+      "Farmers",
+      "Workers",
+      "Families"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "IN006",
+    "name": "Livestock Insurance Scheme",
+    "category": "Insurance",
+    "subcategory": "Livestock Insurance",
+    "ministry": "Department of Animal Husbandry",
+    "description": "Livestock Insurance Scheme is a Government of India initiative providing insurance protection or financial security against health, life, accidents, crops or livelihoods.",
+    "benefits": [
+      "Financial protection",
+      "Insurance coverage",
+      "Government-supported benefits where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Bank Account",
+      "Relevant supporting documents (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://dahd.gov.in",
+    "keywords": [
+      "livestock",
+      "cattle"
+    ],
+    "target_groups": [
+      "Citizens",
+      "Farmers",
+      "Workers",
+      "Families"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "IN007",
+    "name": "Aam Aadmi Bima Yojana (AABY)",
+    "category": "Insurance",
+    "subcategory": "Social Insurance",
+    "ministry": "LIC of India",
+    "description": "Aam Aadmi Bima Yojana (AABY) is a Government of India initiative providing insurance protection or financial security against health, life, accidents, crops or livelihoods.",
+    "benefits": [
+      "Financial protection",
+      "Insurance coverage",
+      "Government-supported benefits where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Bank Account",
+      "Relevant supporting documents (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://licindia.in",
+    "keywords": [
+      "aaby",
+      "rural"
+    ],
+    "target_groups": [
+      "Citizens",
+      "Farmers",
+      "Workers",
+      "Families"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "IN008",
+    "name": "Employees' State Insurance Scheme (ESI)",
+    "category": "Insurance",
+    "subcategory": "Employee Insurance",
+    "ministry": "Ministry of Labour and Employment",
+    "description": "Employees' State Insurance Scheme (ESI) is a Government of India initiative providing insurance protection or financial security against health, life, accidents, crops or livelihoods.",
+    "benefits": [
+      "Financial protection",
+      "Insurance coverage",
+      "Government-supported benefits where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Bank Account",
+      "Relevant supporting documents (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://www.esic.gov.in",
+    "keywords": [
+      "esi",
+      "employees"
+    ],
+    "target_groups": [
+      "Citizens",
+      "Farmers",
+      "Workers",
+      "Families"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "IN009",
+    "name": "Employees' Deposit Linked Insurance (EDLI)",
+    "category": "Insurance",
+    "subcategory": "Provident Fund Insurance",
+    "ministry": "EPFO",
+    "description": "Employees' Deposit Linked Insurance (EDLI) is a Government of India initiative providing insurance protection or financial security against health, life, accidents, crops or livelihoods.",
+    "benefits": [
+      "Financial protection",
+      "Insurance coverage",
+      "Government-supported benefits where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Bank Account",
+      "Relevant supporting documents (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://www.epfindia.gov.in",
+    "keywords": [
+      "epfo",
+      "edli"
+    ],
+    "target_groups": [
+      "Citizens",
+      "Farmers",
+      "Workers",
+      "Families"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "IN010",
+    "name": "Janashree Bima Yojana",
+    "category": "Insurance",
+    "subcategory": "Life Insurance",
+    "ministry": "LIC of India",
+    "description": "Janashree Bima Yojana is a Government of India initiative providing insurance protection or financial security against health, life, accidents, crops or livelihoods.",
+    "benefits": [
+      "Financial protection",
+      "Insurance coverage",
+      "Government-supported benefits where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Bank Account",
+      "Relevant supporting documents (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://licindia.in",
+    "keywords": [
+      "janashree",
+      "insurance"
+    ],
+    "target_groups": [
+      "Citizens",
+      "Farmers",
+      "Workers",
+      "Families"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  }
+]

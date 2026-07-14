@@ -5,6 +5,7 @@ function ChatInput({
   setMessage,
   handleSend,
   language,
+  loading,
 }) {
   return (
     <div className="chat-input-container">
@@ -25,7 +26,7 @@ function ChatInput({
         value={message}
         onChange={(e) => setMessage(e.target.value)}
         onKeyDown={(e) => {
-          if (e.key === "Enter") {
+          if (e.key === "Enter" && !loading) {
             handleSend();
           }
         }}
@@ -33,7 +34,8 @@ function ChatInput({
 
       <button
         className="send-btn"
-        onClick={handleSend}
+        onClick={() => handleSend()}
+        disabled={loading}
       >
         <FaPaperPlane />
       </button>

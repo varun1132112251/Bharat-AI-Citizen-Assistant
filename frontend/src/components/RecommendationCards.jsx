@@ -25,19 +25,21 @@ function RecommendationCards({ recommendations }) {
 
               <div className="card-header">
 
-                <h3>🌾{scheme.name}</h3>
+                <div>
+                  <h3>🌾 {scheme.name}</h3>
 
-                <span className="category-badge">
-                  {scheme.category}
-                </span>
+                  <p className="scheme-category">
+                      {scheme.category}
+                  </p>
+                </div>
+
+                <div className="score-badge">
+                  ⭐ {item.score}
+                </div>
 
               </div>
-
               <p className="description">
                 {scheme.description}
-              </p>
-              <p className="score">
-              ⭐ Match Score: {item.score}
               </p>
 
               <div className="card-section">
@@ -45,7 +47,7 @@ function RecommendationCards({ recommendations }) {
                 <strong>🎁 Benefits</strong>
 
                 <ul>
-                  {scheme.benefits.map((benefit, index) => (
+                  {scheme.benefits.slice(0,3).map((benefit, index) => (
                     <li key={index}>✅ {benefit}</li>
                   ))}
                 </ul>
@@ -53,15 +55,11 @@ function RecommendationCards({ recommendations }) {
               </div>
 
               <div className="card-section">
+                <strong>📄 Documents Required</strong>
 
-                <strong>📄 Required Documents</strong>
-
-                <ul>
-                  {scheme.documents.map((doc, index) => (
-                    <li key={index}>📄 {doc}</li>
-                  ))}
-                </ul>
-
+                <p className="doc-count">
+                  {scheme.documents.length} document(s)
+                </p>
               </div>
 
               <a
@@ -70,7 +68,7 @@ function RecommendationCards({ recommendations }) {
                 target="_blank"
                 rel="noreferrer"
               >
-                Apply / Official Website →
+                🌐 Visit Official Website
               </a>
 
             </div>

@@ -1,0 +1,434 @@
+[
+  {
+    "id": "SK001",
+    "name": "Pradhan Mantri Kaushal Vikas Yojana (PMKVY)",
+    "category": "Skill Development",
+    "subcategory": "Skill Training",
+    "ministry": "Ministry of Skill Development and Entrepreneurship",
+    "description": "Pradhan Mantri Kaushal Vikas Yojana (PMKVY) is a Government of India initiative that helps citizens develop vocational, technical, digital or industry-ready skills for better employment and entrepreneurship.",
+    "benefits": [
+      "Industry-relevant skill training",
+      "Improved employability",
+      "Certification or financial support where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Educational Qualification (if applicable)",
+      "Bank Account (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://www.pmkvyofficial.org",
+    "keywords": [
+      "pmkvy",
+      "skill",
+      "training"
+    ],
+    "target_groups": [
+      "Students",
+      "Job Seekers",
+      "Youth",
+      "Entrepreneurs"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "SK002",
+    "name": "Skill India Mission",
+    "category": "Skill Development",
+    "subcategory": "National Skill Development",
+    "ministry": "Ministry of Skill Development and Entrepreneurship",
+    "description": "Skill India Mission is a Government of India initiative that helps citizens develop vocational, technical, digital or industry-ready skills for better employment and entrepreneurship.",
+    "benefits": [
+      "Industry-relevant skill training",
+      "Improved employability",
+      "Certification or financial support where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Educational Qualification (if applicable)",
+      "Bank Account (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://www.skillindia.gov.in",
+    "keywords": [
+      "skill india",
+      "training"
+    ],
+    "target_groups": [
+      "Students",
+      "Job Seekers",
+      "Youth",
+      "Entrepreneurs"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "SK003",
+    "name": "National Skill Development Corporation (NSDC) Programs",
+    "category": "Skill Development",
+    "subcategory": "Skill Ecosystem",
+    "ministry": "NSDC",
+    "description": "National Skill Development Corporation (NSDC) Programs is a Government of India initiative that helps citizens develop vocational, technical, digital or industry-ready skills for better employment and entrepreneurship.",
+    "benefits": [
+      "Industry-relevant skill training",
+      "Improved employability",
+      "Certification or financial support where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Educational Qualification (if applicable)",
+      "Bank Account (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://nsdcindia.org",
+    "keywords": [
+      "nsdc",
+      "courses"
+    ],
+    "target_groups": [
+      "Students",
+      "Job Seekers",
+      "Youth",
+      "Entrepreneurs"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "SK004",
+    "name": "Jan Shikshan Sansthan (JSS)",
+    "category": "Skill Development",
+    "subcategory": "Vocational Training",
+    "ministry": "Ministry of Skill Development and Entrepreneurship",
+    "description": "Jan Shikshan Sansthan (JSS) is a Government of India initiative that helps citizens develop vocational, technical, digital or industry-ready skills for better employment and entrepreneurship.",
+    "benefits": [
+      "Industry-relevant skill training",
+      "Improved employability",
+      "Certification or financial support where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Educational Qualification (if applicable)",
+      "Bank Account (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://www.msde.gov.in",
+    "keywords": [
+      "jss",
+      "vocational"
+    ],
+    "target_groups": [
+      "Students",
+      "Job Seekers",
+      "Youth",
+      "Entrepreneurs"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "SK005",
+    "name": "SANKALP",
+    "category": "Skill Development",
+    "subcategory": "Capacity Building",
+    "ministry": "Ministry of Skill Development and Entrepreneurship",
+    "description": "SANKALP is a Government of India initiative that helps citizens develop vocational, technical, digital or industry-ready skills for better employment and entrepreneurship.",
+    "benefits": [
+      "Industry-relevant skill training",
+      "Improved employability",
+      "Certification or financial support where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Educational Qualification (if applicable)",
+      "Bank Account (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://www.msde.gov.in",
+    "keywords": [
+      "sankalp",
+      "skill"
+    ],
+    "target_groups": [
+      "Students",
+      "Job Seekers",
+      "Youth",
+      "Entrepreneurs"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "SK006",
+    "name": "STRIVE",
+    "category": "Skill Development",
+    "subcategory": "ITI Improvement",
+    "ministry": "Ministry of Skill Development and Entrepreneurship",
+    "description": "STRIVE is a Government of India initiative that helps citizens develop vocational, technical, digital or industry-ready skills for better employment and entrepreneurship.",
+    "benefits": [
+      "Industry-relevant skill training",
+      "Improved employability",
+      "Certification or financial support where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Educational Qualification (if applicable)",
+      "Bank Account (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://www.msde.gov.in",
+    "keywords": [
+      "strive",
+      "iti"
+    ],
+    "target_groups": [
+      "Students",
+      "Job Seekers",
+      "Youth",
+      "Entrepreneurs"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "SK007",
+    "name": "National Apprenticeship Promotion Scheme (NAPS)",
+    "category": "Skill Development",
+    "subcategory": "Apprenticeship",
+    "ministry": "Ministry of Skill Development and Entrepreneurship",
+    "description": "National Apprenticeship Promotion Scheme (NAPS) is a Government of India initiative that helps citizens develop vocational, technical, digital or industry-ready skills for better employment and entrepreneurship.",
+    "benefits": [
+      "Industry-relevant skill training",
+      "Improved employability",
+      "Certification or financial support where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Educational Qualification (if applicable)",
+      "Bank Account (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://www.apprenticeshipindia.gov.in",
+    "keywords": [
+      "naps",
+      "apprenticeship"
+    ],
+    "target_groups": [
+      "Students",
+      "Job Seekers",
+      "Youth",
+      "Entrepreneurs"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "SK008",
+    "name": "National Apprenticeship Training Scheme (NATS)",
+    "category": "Skill Development",
+    "subcategory": "Graduate Apprenticeship",
+    "ministry": "Ministry of Education",
+    "description": "National Apprenticeship Training Scheme (NATS) is a Government of India initiative that helps citizens develop vocational, technical, digital or industry-ready skills for better employment and entrepreneurship.",
+    "benefits": [
+      "Industry-relevant skill training",
+      "Improved employability",
+      "Certification or financial support where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Educational Qualification (if applicable)",
+      "Bank Account (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://nats.education.gov.in",
+    "keywords": [
+      "nats",
+      "internship"
+    ],
+    "target_groups": [
+      "Students",
+      "Job Seekers",
+      "Youth",
+      "Entrepreneurs"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "SK009",
+    "name": "PM Vishwakarma",
+    "category": "Skill Development",
+    "subcategory": "Traditional Skills",
+    "ministry": "Ministry of MSME",
+    "description": "PM Vishwakarma is a Government of India initiative that helps citizens develop vocational, technical, digital or industry-ready skills for better employment and entrepreneurship.",
+    "benefits": [
+      "Industry-relevant skill training",
+      "Improved employability",
+      "Certification or financial support where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Educational Qualification (if applicable)",
+      "Bank Account (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://pmvishwakarma.gov.in",
+    "keywords": [
+      "artisan",
+      "craft"
+    ],
+    "target_groups": [
+      "Students",
+      "Job Seekers",
+      "Youth",
+      "Entrepreneurs"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "SK010",
+    "name": "Digital Skills for Youth",
+    "category": "Skill Development",
+    "subcategory": "Digital Skills",
+    "ministry": "Ministry of Skill Development and Entrepreneurship",
+    "description": "Digital Skills for Youth is a Government of India initiative that helps citizens develop vocational, technical, digital or industry-ready skills for better employment and entrepreneurship.",
+    "benefits": [
+      "Industry-relevant skill training",
+      "Improved employability",
+      "Certification or financial support where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Educational Qualification (if applicable)",
+      "Bank Account (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://www.skillindia.gov.in",
+    "keywords": [
+      "digital",
+      "ai",
+      "it"
+    ],
+    "target_groups": [
+      "Students",
+      "Job Seekers",
+      "Youth",
+      "Entrepreneurs"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  }
+]

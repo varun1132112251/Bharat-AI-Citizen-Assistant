@@ -1,1 +1,803 @@
-[]
+[
+  {
+    "id": "HE001",
+    "name": "Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (AB-PMJAY)",
+    "category": "Health",
+    "subcategory": "Health Insurance",
+    "ministry": "Ministry of Health and Family Welfare",
+    "description": "Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (AB-PMJAY) is a Government of India health initiative providing healthcare, prevention, treatment or nutrition support.",
+    "benefits": [
+      "Government-supported healthcare",
+      "Improved access to health services",
+      "Financial or medical assistance where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Relevant medical records (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://pmjay.gov.in",
+    "keywords": [
+      "ayushman",
+      "health",
+      "insurance",
+      "hospital"
+    ],
+    "target_groups": [
+      "Citizens",
+      "Patients"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "HE002",
+    "name": "Ayushman Bharat Health Account (ABHA)",
+    "category": "Health",
+    "subcategory": "Digital Health",
+    "ministry": "National Health Authority",
+    "description": "Ayushman Bharat Health Account (ABHA) is a Government of India health initiative providing healthcare, prevention, treatment or nutrition support.",
+    "benefits": [
+      "Government-supported healthcare",
+      "Improved access to health services",
+      "Financial or medical assistance where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Relevant medical records (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://abha.abdm.gov.in",
+    "keywords": [
+      "abha",
+      "health id"
+    ],
+    "target_groups": [
+      "Citizens",
+      "Patients"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "HE003",
+    "name": "Pradhan Mantri Bhartiya Janaushadhi Pariyojana",
+    "category": "Health",
+    "subcategory": "Affordable Medicines",
+    "ministry": "Department of Pharmaceuticals",
+    "description": "Pradhan Mantri Bhartiya Janaushadhi Pariyojana is a Government of India health initiative providing healthcare, prevention, treatment or nutrition support.",
+    "benefits": [
+      "Government-supported healthcare",
+      "Improved access to health services",
+      "Financial or medical assistance where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Relevant medical records (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://janaushadhi.gov.in",
+    "keywords": [
+      "medicine",
+      "generic"
+    ],
+    "target_groups": [
+      "Citizens",
+      "Patients"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "HE004",
+    "name": "eSanjeevani",
+    "category": "Health",
+    "subcategory": "Telemedicine",
+    "ministry": "Ministry of Health and Family Welfare",
+    "description": "eSanjeevani is a Government of India health initiative providing healthcare, prevention, treatment or nutrition support.",
+    "benefits": [
+      "Government-supported healthcare",
+      "Improved access to health services",
+      "Financial or medical assistance where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Relevant medical records (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://esanjeevani.mohfw.gov.in",
+    "keywords": [
+      "telemedicine",
+      "doctor"
+    ],
+    "target_groups": [
+      "Citizens",
+      "Patients"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "HE005",
+    "name": "Mission Indradhanush",
+    "category": "Health",
+    "subcategory": "Immunization",
+    "ministry": "Ministry of Health and Family Welfare",
+    "description": "Mission Indradhanush is a Government of India health initiative providing healthcare, prevention, treatment or nutrition support.",
+    "benefits": [
+      "Government-supported healthcare",
+      "Improved access to health services",
+      "Financial or medical assistance where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Relevant medical records (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://nhm.gov.in",
+    "keywords": [
+      "vaccination",
+      "children"
+    ],
+    "target_groups": [
+      "Citizens",
+      "Patients"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "HE006",
+    "name": "National Health Mission (NHM)",
+    "category": "Health",
+    "subcategory": "Public Health",
+    "ministry": "Ministry of Health and Family Welfare",
+    "description": "National Health Mission (NHM) is a Government of India health initiative providing healthcare, prevention, treatment or nutrition support.",
+    "benefits": [
+      "Government-supported healthcare",
+      "Improved access to health services",
+      "Financial or medical assistance where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Relevant medical records (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://nhm.gov.in",
+    "keywords": [
+      "nhm",
+      "health"
+    ],
+    "target_groups": [
+      "Citizens",
+      "Patients"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "HE007",
+    "name": "Janani Suraksha Yojana",
+    "category": "Health",
+    "subcategory": "Maternal Health",
+    "ministry": "Ministry of Health and Family Welfare",
+    "description": "Janani Suraksha Yojana is a Government of India health initiative providing healthcare, prevention, treatment or nutrition support.",
+    "benefits": [
+      "Government-supported healthcare",
+      "Improved access to health services",
+      "Financial or medical assistance where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Relevant medical records (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://nhm.gov.in",
+    "keywords": [
+      "pregnancy",
+      "delivery"
+    ],
+    "target_groups": [
+      "Citizens",
+      "Patients"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "HE008",
+    "name": "Janani Shishu Suraksha Karyakram",
+    "category": "Health",
+    "subcategory": "Maternal & Child Health",
+    "ministry": "Ministry of Health and Family Welfare",
+    "description": "Janani Shishu Suraksha Karyakram is a Government of India health initiative providing healthcare, prevention, treatment or nutrition support.",
+    "benefits": [
+      "Government-supported healthcare",
+      "Improved access to health services",
+      "Financial or medical assistance where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Relevant medical records (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://nhm.gov.in",
+    "keywords": [
+      "mother",
+      "child"
+    ],
+    "target_groups": [
+      "Citizens",
+      "Patients"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "HE009",
+    "name": "Rashtriya Bal Swasthya Karyakram",
+    "category": "Health",
+    "subcategory": "Child Health",
+    "ministry": "Ministry of Health and Family Welfare",
+    "description": "Rashtriya Bal Swasthya Karyakram is a Government of India health initiative providing healthcare, prevention, treatment or nutrition support.",
+    "benefits": [
+      "Government-supported healthcare",
+      "Improved access to health services",
+      "Financial or medical assistance where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Relevant medical records (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://nhm.gov.in",
+    "keywords": [
+      "children",
+      "screening"
+    ],
+    "target_groups": [
+      "Citizens",
+      "Patients"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "HE010",
+    "name": "National Programme for Prevention and Control of Cancer, Diabetes, Cardiovascular Diseases and Stroke (NPCDCS)",
+    "category": "Health",
+    "subcategory": "Non-Communicable Diseases",
+    "ministry": "Ministry of Health and Family Welfare",
+    "description": "National Programme for Prevention and Control of Cancer, Diabetes, Cardiovascular Diseases and Stroke (NPCDCS) is a Government of India health initiative providing healthcare, prevention, treatment or nutrition support.",
+    "benefits": [
+      "Government-supported healthcare",
+      "Improved access to health services",
+      "Financial or medical assistance where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Relevant medical records (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://nhm.gov.in",
+    "keywords": [
+      "diabetes",
+      "cancer",
+      "heart"
+    ],
+    "target_groups": [
+      "Citizens",
+      "Patients"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "HE011",
+    "name": "National Tuberculosis Elimination Programme",
+    "category": "Health",
+    "subcategory": "Tuberculosis",
+    "ministry": "Ministry of Health and Family Welfare",
+    "description": "National Tuberculosis Elimination Programme is a Government of India health initiative providing healthcare, prevention, treatment or nutrition support.",
+    "benefits": [
+      "Government-supported healthcare",
+      "Improved access to health services",
+      "Financial or medical assistance where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Relevant medical records (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://tbcindia.gov.in",
+    "keywords": [
+      "tb",
+      "tuberculosis"
+    ],
+    "target_groups": [
+      "Citizens",
+      "Patients"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "HE012",
+    "name": "National AIDS Control Programme",
+    "category": "Health",
+    "subcategory": "HIV/AIDS",
+    "ministry": "National AIDS Control Organisation",
+    "description": "National AIDS Control Programme is a Government of India health initiative providing healthcare, prevention, treatment or nutrition support.",
+    "benefits": [
+      "Government-supported healthcare",
+      "Improved access to health services",
+      "Financial or medical assistance where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Relevant medical records (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://naco.gov.in",
+    "keywords": [
+      "hiv",
+      "aids"
+    ],
+    "target_groups": [
+      "Citizens",
+      "Patients"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "HE013",
+    "name": "National Mental Health Programme",
+    "category": "Health",
+    "subcategory": "Mental Health",
+    "ministry": "Ministry of Health and Family Welfare",
+    "description": "National Mental Health Programme is a Government of India health initiative providing healthcare, prevention, treatment or nutrition support.",
+    "benefits": [
+      "Government-supported healthcare",
+      "Improved access to health services",
+      "Financial or medical assistance where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Relevant medical records (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://mohfw.gov.in",
+    "keywords": [
+      "mental health"
+    ],
+    "target_groups": [
+      "Citizens",
+      "Patients"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "HE014",
+    "name": "PM National Dialysis Programme",
+    "category": "Health",
+    "subcategory": "Dialysis",
+    "ministry": "Ministry of Health and Family Welfare",
+    "description": "PM National Dialysis Programme is a Government of India health initiative providing healthcare, prevention, treatment or nutrition support.",
+    "benefits": [
+      "Government-supported healthcare",
+      "Improved access to health services",
+      "Financial or medical assistance where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Relevant medical records (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://nhm.gov.in",
+    "keywords": [
+      "kidney",
+      "dialysis"
+    ],
+    "target_groups": [
+      "Citizens",
+      "Patients"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "HE015",
+    "name": "Pradhan Mantri Surakshit Matritva Abhiyan",
+    "category": "Health",
+    "subcategory": "Maternal Care",
+    "ministry": "Ministry of Health and Family Welfare",
+    "description": "Pradhan Mantri Surakshit Matritva Abhiyan is a Government of India health initiative providing healthcare, prevention, treatment or nutrition support.",
+    "benefits": [
+      "Government-supported healthcare",
+      "Improved access to health services",
+      "Financial or medical assistance where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Relevant medical records (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://pmsma.mohfw.gov.in",
+    "keywords": [
+      "pregnant",
+      "maternal"
+    ],
+    "target_groups": [
+      "Citizens",
+      "Patients"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "HE016",
+    "name": "Nikshay Poshan Yojana",
+    "category": "Health",
+    "subcategory": "Nutrition Support",
+    "ministry": "Ministry of Health and Family Welfare",
+    "description": "Nikshay Poshan Yojana is a Government of India health initiative providing healthcare, prevention, treatment or nutrition support.",
+    "benefits": [
+      "Government-supported healthcare",
+      "Improved access to health services",
+      "Financial or medical assistance where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Relevant medical records (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://nikshay.in",
+    "keywords": [
+      "tb",
+      "nutrition"
+    ],
+    "target_groups": [
+      "Citizens",
+      "Patients"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "HE017",
+    "name": "Universal Immunization Programme",
+    "category": "Health",
+    "subcategory": "Immunization",
+    "ministry": "Ministry of Health and Family Welfare",
+    "description": "Universal Immunization Programme is a Government of India health initiative providing healthcare, prevention, treatment or nutrition support.",
+    "benefits": [
+      "Government-supported healthcare",
+      "Improved access to health services",
+      "Financial or medical assistance where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Relevant medical records (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://nhm.gov.in",
+    "keywords": [
+      "vaccine"
+    ],
+    "target_groups": [
+      "Citizens",
+      "Patients"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "HE018",
+    "name": "National Vector Borne Disease Control Programme",
+    "category": "Health",
+    "subcategory": "Disease Control",
+    "ministry": "Ministry of Health and Family Welfare",
+    "description": "National Vector Borne Disease Control Programme is a Government of India health initiative providing healthcare, prevention, treatment or nutrition support.",
+    "benefits": [
+      "Government-supported healthcare",
+      "Improved access to health services",
+      "Financial or medical assistance where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Relevant medical records (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://nvbdcp.gov.in",
+    "keywords": [
+      "malaria",
+      "dengue"
+    ],
+    "target_groups": [
+      "Citizens",
+      "Patients"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "HE019",
+    "name": "Anaemia Mukt Bharat",
+    "category": "Health",
+    "subcategory": "Nutrition",
+    "ministry": "Ministry of Health and Family Welfare",
+    "description": "Anaemia Mukt Bharat is a Government of India health initiative providing healthcare, prevention, treatment or nutrition support.",
+    "benefits": [
+      "Government-supported healthcare",
+      "Improved access to health services",
+      "Financial or medical assistance where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Relevant medical records (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://anemiamuktbharat.info",
+    "keywords": [
+      "anaemia",
+      "nutrition"
+    ],
+    "target_groups": [
+      "Citizens",
+      "Patients"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "HE020",
+    "name": "POSHAN Abhiyaan",
+    "category": "Health",
+    "subcategory": "Nutrition",
+    "ministry": "Ministry of Women and Child Development",
+    "description": "POSHAN Abhiyaan is a Government of India health initiative providing healthcare, prevention, treatment or nutrition support.",
+    "benefits": [
+      "Government-supported healthcare",
+      "Improved access to health services",
+      "Financial or medical assistance where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Relevant medical records (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://poshanabhiyaan.gov.in",
+    "keywords": [
+      "nutrition",
+      "children"
+    ],
+    "target_groups": [
+      "Citizens",
+      "Patients"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  }
+]

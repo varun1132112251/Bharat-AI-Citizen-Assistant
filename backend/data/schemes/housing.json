@@ -1,1 +1,628 @@
-[]
+[
+  {
+    "id": "HS001",
+    "name": "Pradhan Mantri Awas Yojana - Urban (PMAY-U)",
+    "category": "Housing",
+    "subcategory": "Urban Housing",
+    "ministry": "Ministry of Housing and Urban Affairs",
+    "description": "Pradhan Mantri Awas Yojana - Urban (PMAY-U) is a Government of India initiative supporting affordable housing, urban development or property-related services.",
+    "benefits": [
+      "Government assistance",
+      "Housing or infrastructure support",
+      "Financial benefits where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Income Certificate (if applicable)",
+      "Property/Land documents (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://pmay-urban.gov.in",
+    "keywords": [
+      "pmay",
+      "urban",
+      "house"
+    ],
+    "target_groups": [
+      "Citizens",
+      "Home Buyers",
+      "Families"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "HS002",
+    "name": "Pradhan Mantri Awas Yojana - Gramin (PMAY-G)",
+    "category": "Housing",
+    "subcategory": "Rural Housing",
+    "ministry": "Ministry of Rural Development",
+    "description": "Pradhan Mantri Awas Yojana - Gramin (PMAY-G) is a Government of India initiative supporting affordable housing, urban development or property-related services.",
+    "benefits": [
+      "Government assistance",
+      "Housing or infrastructure support",
+      "Financial benefits where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Income Certificate (if applicable)",
+      "Property/Land documents (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://pmayg.nic.in",
+    "keywords": [
+      "pmay",
+      "rural",
+      "house"
+    ],
+    "target_groups": [
+      "Citizens",
+      "Home Buyers",
+      "Families"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "HS003",
+    "name": "Credit Linked Subsidy Scheme (CLSS)",
+    "category": "Housing",
+    "subcategory": "Home Loan Subsidy",
+    "ministry": "Ministry of Housing and Urban Affairs",
+    "description": "Credit Linked Subsidy Scheme (CLSS) is a Government of India initiative supporting affordable housing, urban development or property-related services.",
+    "benefits": [
+      "Government assistance",
+      "Housing or infrastructure support",
+      "Financial benefits where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Income Certificate (if applicable)",
+      "Property/Land documents (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://pmaymis.gov.in",
+    "keywords": [
+      "home loan",
+      "subsidy"
+    ],
+    "target_groups": [
+      "Citizens",
+      "Home Buyers",
+      "Families"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "HS004",
+    "name": "Affordable Rental Housing Complexes (ARHC)",
+    "category": "Housing",
+    "subcategory": "Rental Housing",
+    "ministry": "Ministry of Housing and Urban Affairs",
+    "description": "Affordable Rental Housing Complexes (ARHC) is a Government of India initiative supporting affordable housing, urban development or property-related services.",
+    "benefits": [
+      "Government assistance",
+      "Housing or infrastructure support",
+      "Financial benefits where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Income Certificate (if applicable)",
+      "Property/Land documents (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://arhc.mohua.gov.in",
+    "keywords": [
+      "rental",
+      "housing"
+    ],
+    "target_groups": [
+      "Citizens",
+      "Home Buyers",
+      "Families"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "HS005",
+    "name": "Rajiv Awas Yojana",
+    "category": "Housing",
+    "subcategory": "Slum Redevelopment",
+    "ministry": "Ministry of Housing and Urban Affairs",
+    "description": "Rajiv Awas Yojana is a Government of India initiative supporting affordable housing, urban development or property-related services.",
+    "benefits": [
+      "Government assistance",
+      "Housing or infrastructure support",
+      "Financial benefits where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Income Certificate (if applicable)",
+      "Property/Land documents (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://mohua.gov.in",
+    "keywords": [
+      "slum",
+      "housing"
+    ],
+    "target_groups": [
+      "Citizens",
+      "Home Buyers",
+      "Families"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "HS006",
+    "name": "Smart Cities Mission",
+    "category": "Housing",
+    "subcategory": "Urban Development",
+    "ministry": "Ministry of Housing and Urban Affairs",
+    "description": "Smart Cities Mission is a Government of India initiative supporting affordable housing, urban development or property-related services.",
+    "benefits": [
+      "Government assistance",
+      "Housing or infrastructure support",
+      "Financial benefits where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Income Certificate (if applicable)",
+      "Property/Land documents (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://smartcities.gov.in",
+    "keywords": [
+      "smart city"
+    ],
+    "target_groups": [
+      "Citizens",
+      "Home Buyers",
+      "Families"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "HS007",
+    "name": "AMRUT Mission",
+    "category": "Housing",
+    "subcategory": "Urban Infrastructure",
+    "ministry": "Ministry of Housing and Urban Affairs",
+    "description": "AMRUT Mission is a Government of India initiative supporting affordable housing, urban development or property-related services.",
+    "benefits": [
+      "Government assistance",
+      "Housing or infrastructure support",
+      "Financial benefits where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Income Certificate (if applicable)",
+      "Property/Land documents (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://mohua.gov.in",
+    "keywords": [
+      "water",
+      "sewerage"
+    ],
+    "target_groups": [
+      "Citizens",
+      "Home Buyers",
+      "Families"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "HS008",
+    "name": "Deendayal Antyodaya Yojana - NULM",
+    "category": "Housing",
+    "subcategory": "Urban Livelihood",
+    "ministry": "Ministry of Housing and Urban Affairs",
+    "description": "Deendayal Antyodaya Yojana - NULM is a Government of India initiative supporting affordable housing, urban development or property-related services.",
+    "benefits": [
+      "Government assistance",
+      "Housing or infrastructure support",
+      "Financial benefits where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Income Certificate (if applicable)",
+      "Property/Land documents (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://nulm.gov.in",
+    "keywords": [
+      "livelihood",
+      "urban"
+    ],
+    "target_groups": [
+      "Citizens",
+      "Home Buyers",
+      "Families"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "HS009",
+    "name": "RAY Affordable Housing",
+    "category": "Housing",
+    "subcategory": "Affordable Housing",
+    "ministry": "Ministry of Housing and Urban Affairs",
+    "description": "RAY Affordable Housing is a Government of India initiative supporting affordable housing, urban development or property-related services.",
+    "benefits": [
+      "Government assistance",
+      "Housing or infrastructure support",
+      "Financial benefits where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Income Certificate (if applicable)",
+      "Property/Land documents (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://mohua.gov.in",
+    "keywords": [
+      "affordable"
+    ],
+    "target_groups": [
+      "Citizens",
+      "Home Buyers",
+      "Families"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "HS010",
+    "name": "Beneficiary Led Construction (BLC)",
+    "category": "Housing",
+    "subcategory": "House Construction",
+    "ministry": "Ministry of Housing and Urban Affairs",
+    "description": "Beneficiary Led Construction (BLC) is a Government of India initiative supporting affordable housing, urban development or property-related services.",
+    "benefits": [
+      "Government assistance",
+      "Housing or infrastructure support",
+      "Financial benefits where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Income Certificate (if applicable)",
+      "Property/Land documents (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://pmaymis.gov.in",
+    "keywords": [
+      "construction"
+    ],
+    "target_groups": [
+      "Citizens",
+      "Home Buyers",
+      "Families"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "HS011",
+    "name": "In-Situ Slum Redevelopment (ISSR)",
+    "category": "Housing",
+    "subcategory": "Slum Redevelopment",
+    "ministry": "Ministry of Housing and Urban Affairs",
+    "description": "In-Situ Slum Redevelopment (ISSR) is a Government of India initiative supporting affordable housing, urban development or property-related services.",
+    "benefits": [
+      "Government assistance",
+      "Housing or infrastructure support",
+      "Financial benefits where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Income Certificate (if applicable)",
+      "Property/Land documents (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://pmaymis.gov.in",
+    "keywords": [
+      "issr"
+    ],
+    "target_groups": [
+      "Citizens",
+      "Home Buyers",
+      "Families"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "HS012",
+    "name": "Affordable Housing in Partnership (AHP)",
+    "category": "Housing",
+    "subcategory": "Affordable Housing",
+    "ministry": "Ministry of Housing and Urban Affairs",
+    "description": "Affordable Housing in Partnership (AHP) is a Government of India initiative supporting affordable housing, urban development or property-related services.",
+    "benefits": [
+      "Government assistance",
+      "Housing or infrastructure support",
+      "Financial benefits where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Income Certificate (if applicable)",
+      "Property/Land documents (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://pmaymis.gov.in",
+    "keywords": [
+      "ahp"
+    ],
+    "target_groups": [
+      "Citizens",
+      "Home Buyers",
+      "Families"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "HS013",
+    "name": "Light House Projects",
+    "category": "Housing",
+    "subcategory": "Housing Technology",
+    "ministry": "Ministry of Housing and Urban Affairs",
+    "description": "Light House Projects is a Government of India initiative supporting affordable housing, urban development or property-related services.",
+    "benefits": [
+      "Government assistance",
+      "Housing or infrastructure support",
+      "Financial benefits where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Income Certificate (if applicable)",
+      "Property/Land documents (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://mohua.gov.in",
+    "keywords": [
+      "technology",
+      "housing"
+    ],
+    "target_groups": [
+      "Citizens",
+      "Home Buyers",
+      "Families"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "HS014",
+    "name": "SVAMITVA Scheme",
+    "category": "Housing",
+    "subcategory": "Property Rights",
+    "ministry": "Ministry of Panchayati Raj",
+    "description": "SVAMITVA Scheme is a Government of India initiative supporting affordable housing, urban development or property-related services.",
+    "benefits": [
+      "Government assistance",
+      "Housing or infrastructure support",
+      "Financial benefits where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Income Certificate (if applicable)",
+      "Property/Land documents (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://svamitva.nic.in",
+    "keywords": [
+      "property",
+      "land"
+    ],
+    "target_groups": [
+      "Citizens",
+      "Home Buyers",
+      "Families"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "HS015",
+    "name": "National Urban Housing Fund",
+    "category": "Housing",
+    "subcategory": "Housing Finance",
+    "ministry": "Ministry of Housing and Urban Affairs",
+    "description": "National Urban Housing Fund is a Government of India initiative supporting affordable housing, urban development or property-related services.",
+    "benefits": [
+      "Government assistance",
+      "Housing or infrastructure support",
+      "Financial benefits where applicable"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Income Certificate (if applicable)",
+      "Property/Land documents (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://mohua.gov.in",
+    "keywords": [
+      "housing finance"
+    ],
+    "target_groups": [
+      "Citizens",
+      "Home Buyers",
+      "Families"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  }
+]

@@ -296,3 +296,82 @@ Explain:
         "success": True,
         "summary": response.choices[0].message.content
     }
+@app.post("/assistant")
+def assistant(request: ChatRequest):
+
+    # ---------- Chat ----------
+    results = find_information(request.message)
+
+    extra_context = ""
+
+    for item in results:
+        extra_context += f"\n\n### {item['type']}\n"
+
+        for key, value in item["data"].items():
+            extra_context += f"{key}: {value}\n"
+
+    response = client.chat.completions.create(
+        model="meta-llama/llama-3.1-8b-instruct",
+        messages=[
+            {
+                "role": "system",
+                "content": SYSTEM_PROMPT,
+            },
+            {
+                "role": "user",
+                "content": f"{extra_context}\n\nCitizen Question:\n{request.message}",
+            },
+        ],
+    )
+
+    reply = response.choices[0].message.content
+
+
+    # ---------- Checklist ----------
+    checklist = None
+
+    for item in results:
+        if item["type"] == "Service":
+
+            service = item["data"]
+
+            checklist = {
+                "service": service["service"],
+                "documents": service["documents"],
+                "fees": service["fees"],
+                "processing_time": service["processing_time"],
+                "official_website": service["official_website"]
+            }
+
+            break
+
+
+    # ---------- Recommendations ----------
+    recommendations = recommend_schemes(
+        request.message,
+        SCHEMES
+    )
+    summary = ""
+
+    if recommendations:
+
+        top = recommendations[:3]
+
+        names = ", ".join(
+            item["scheme"]["name"]
+            for item in top
+        )
+
+        summary = (
+            f"Based on your request, the most suitable government schemes are "
+            f"{names}. These schemes match your profile and may provide financial "
+            f"or service benefits. Check the eligibility criteria before applying."
+        )
+
+
+    return {
+        "reply": reply,
+        "summary": summary,
+        "recommendations": recommendations,
+        "checklist": checklist
+    }

@@ -1,1 +1,433 @@
-[]
+[
+  {
+    "id": "PN001",
+    "name": "Atal Pension Yojana (APY)",
+    "category": "Pension",
+    "subcategory": "Social Pension",
+    "ministry": "Ministry of Finance",
+    "description": "Atal Pension Yojana (APY) is a Government of India pension and social security initiative providing retirement income or financial assistance to eligible beneficiaries.",
+    "benefits": [
+      "Regular pension or retirement income",
+      "Government-backed social security",
+      "Financial support for eligible beneficiaries"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Bank Account",
+      "Age or employment proof (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://www.npscra.nsdl.co.in",
+    "keywords": [
+      "atal pension",
+      "apy",
+      "retirement"
+    ],
+    "target_groups": [
+      "Senior Citizens",
+      "Workers",
+      "Farmers",
+      "Citizens"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "PN002",
+    "name": "National Pension System (NPS)",
+    "category": "Pension",
+    "subcategory": "Retirement Savings",
+    "ministry": "PFRDA",
+    "description": "National Pension System (NPS) is a Government of India pension and social security initiative providing retirement income or financial assistance to eligible beneficiaries.",
+    "benefits": [
+      "Regular pension or retirement income",
+      "Government-backed social security",
+      "Financial support for eligible beneficiaries"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Bank Account",
+      "Age or employment proof (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://www.npscra.nsdl.co.in",
+    "keywords": [
+      "nps",
+      "retirement"
+    ],
+    "target_groups": [
+      "Senior Citizens",
+      "Workers",
+      "Farmers",
+      "Citizens"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "PN003",
+    "name": "Indira Gandhi National Old Age Pension Scheme (IGNOAPS)",
+    "category": "Pension",
+    "subcategory": "Old Age Pension",
+    "ministry": "Ministry of Rural Development",
+    "description": "Indira Gandhi National Old Age Pension Scheme (IGNOAPS) is a Government of India pension and social security initiative providing retirement income or financial assistance to eligible beneficiaries.",
+    "benefits": [
+      "Regular pension or retirement income",
+      "Government-backed social security",
+      "Financial support for eligible beneficiaries"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Bank Account",
+      "Age or employment proof (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://nsap.nic.in",
+    "keywords": [
+      "old age",
+      "senior citizen"
+    ],
+    "target_groups": [
+      "Senior Citizens",
+      "Workers",
+      "Farmers",
+      "Citizens"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "PN004",
+    "name": "Indira Gandhi National Widow Pension Scheme (IGNWPS)",
+    "category": "Pension",
+    "subcategory": "Widow Pension",
+    "ministry": "Ministry of Rural Development",
+    "description": "Indira Gandhi National Widow Pension Scheme (IGNWPS) is a Government of India pension and social security initiative providing retirement income or financial assistance to eligible beneficiaries.",
+    "benefits": [
+      "Regular pension or retirement income",
+      "Government-backed social security",
+      "Financial support for eligible beneficiaries"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Bank Account",
+      "Age or employment proof (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://nsap.nic.in",
+    "keywords": [
+      "widow",
+      "pension"
+    ],
+    "target_groups": [
+      "Senior Citizens",
+      "Workers",
+      "Farmers",
+      "Citizens"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "PN005",
+    "name": "Indira Gandhi National Disability Pension Scheme (IGNDPS)",
+    "category": "Pension",
+    "subcategory": "Disability Pension",
+    "ministry": "Ministry of Rural Development",
+    "description": "Indira Gandhi National Disability Pension Scheme (IGNDPS) is a Government of India pension and social security initiative providing retirement income or financial assistance to eligible beneficiaries.",
+    "benefits": [
+      "Regular pension or retirement income",
+      "Government-backed social security",
+      "Financial support for eligible beneficiaries"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Bank Account",
+      "Age or employment proof (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://nsap.nic.in",
+    "keywords": [
+      "disability",
+      "pension"
+    ],
+    "target_groups": [
+      "Senior Citizens",
+      "Workers",
+      "Farmers",
+      "Citizens"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "PN006",
+    "name": "National Social Assistance Programme (NSAP)",
+    "category": "Pension",
+    "subcategory": "Social Security",
+    "ministry": "Ministry of Rural Development",
+    "description": "National Social Assistance Programme (NSAP) is a Government of India pension and social security initiative providing retirement income or financial assistance to eligible beneficiaries.",
+    "benefits": [
+      "Regular pension or retirement income",
+      "Government-backed social security",
+      "Financial support for eligible beneficiaries"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Bank Account",
+      "Age or employment proof (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://nsap.nic.in",
+    "keywords": [
+      "nsap",
+      "assistance"
+    ],
+    "target_groups": [
+      "Senior Citizens",
+      "Workers",
+      "Farmers",
+      "Citizens"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "PN007",
+    "name": "Pradhan Mantri Shram Yogi Maandhan (PM-SYM)",
+    "category": "Pension",
+    "subcategory": "Unorganised Workers Pension",
+    "ministry": "Ministry of Labour and Employment",
+    "description": "Pradhan Mantri Shram Yogi Maandhan (PM-SYM) is a Government of India pension and social security initiative providing retirement income or financial assistance to eligible beneficiaries.",
+    "benefits": [
+      "Regular pension or retirement income",
+      "Government-backed social security",
+      "Financial support for eligible beneficiaries"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Bank Account",
+      "Age or employment proof (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://maandhan.in",
+    "keywords": [
+      "unorganised workers",
+      "maandhan"
+    ],
+    "target_groups": [
+      "Senior Citizens",
+      "Workers",
+      "Farmers",
+      "Citizens"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "PN008",
+    "name": "Pradhan Mantri Kisan Maandhan Yojana",
+    "category": "Pension",
+    "subcategory": "Farmers Pension",
+    "ministry": "Ministry of Agriculture",
+    "description": "Pradhan Mantri Kisan Maandhan Yojana is a Government of India pension and social security initiative providing retirement income or financial assistance to eligible beneficiaries.",
+    "benefits": [
+      "Regular pension or retirement income",
+      "Government-backed social security",
+      "Financial support for eligible beneficiaries"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Bank Account",
+      "Age or employment proof (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://maandhan.in",
+    "keywords": [
+      "farmer",
+      "pension"
+    ],
+    "target_groups": [
+      "Senior Citizens",
+      "Workers",
+      "Farmers",
+      "Citizens"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "PN009",
+    "name": "LIC Saral Pension Plan",
+    "category": "Pension",
+    "subcategory": "Immediate Annuity",
+    "ministry": "LIC of India",
+    "description": "LIC Saral Pension Plan is a Government of India pension and social security initiative providing retirement income or financial assistance to eligible beneficiaries.",
+    "benefits": [
+      "Regular pension or retirement income",
+      "Government-backed social security",
+      "Financial support for eligible beneficiaries"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Bank Account",
+      "Age or employment proof (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://licindia.in",
+    "keywords": [
+      "lic",
+      "annuity"
+    ],
+    "target_groups": [
+      "Senior Citizens",
+      "Workers",
+      "Farmers",
+      "Citizens"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "PN010",
+    "name": "Employees' Pension Scheme (EPS-95)",
+    "category": "Pension",
+    "subcategory": "Employee Pension",
+    "ministry": "EPFO",
+    "description": "Employees' Pension Scheme (EPS-95) is a Government of India pension and social security initiative providing retirement income or financial assistance to eligible beneficiaries.",
+    "benefits": [
+      "Regular pension or retirement income",
+      "Government-backed social security",
+      "Financial support for eligible beneficiaries"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Bank Account",
+      "Age or employment proof (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://www.epfindia.gov.in",
+    "keywords": [
+      "epfo",
+      "eps"
+    ],
+    "target_groups": [
+      "Senior Citizens",
+      "Workers",
+      "Farmers",
+      "Citizens"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  }
+]

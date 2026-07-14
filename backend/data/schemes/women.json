@@ -1,1 +1,602 @@
-[]
+[
+  {
+    "id": "WM001",
+    "name": "Beti Bachao Beti Padhao",
+    "category": "Women",
+    "subcategory": "Girl Child Welfare",
+    "ministry": "Ministry of Women and Child Development",
+    "description": "Beti Bachao Beti Padhao is a Government of India initiative supporting women's welfare, safety, empowerment or financial inclusion.",
+    "benefits": [
+      "Government support",
+      "Financial or social assistance where applicable",
+      "Improved opportunities for women"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Bank Account (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://wcd.gov.in",
+    "keywords": [
+      "girl",
+      "education",
+      "bbbp"
+    ],
+    "target_groups": [
+      "Women",
+      "Girls"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "WM002",
+    "name": "Pradhan Mantri Matru Vandana Yojana (PMMVY)",
+    "category": "Women",
+    "subcategory": "Maternity Benefit",
+    "ministry": "Ministry of Women and Child Development",
+    "description": "Pradhan Mantri Matru Vandana Yojana (PMMVY) is a Government of India initiative supporting women's welfare, safety, empowerment or financial inclusion.",
+    "benefits": [
+      "Government support",
+      "Financial or social assistance where applicable",
+      "Improved opportunities for women"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Bank Account (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://pmmvy.wcd.gov.in",
+    "keywords": [
+      "pregnancy",
+      "maternity"
+    ],
+    "target_groups": [
+      "Women",
+      "Girls"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "WM003",
+    "name": "Sukanya Samriddhi Yojana",
+    "category": "Women",
+    "subcategory": "Savings",
+    "ministry": "Ministry of Finance",
+    "description": "Sukanya Samriddhi Yojana is a Government of India initiative supporting women's welfare, safety, empowerment or financial inclusion.",
+    "benefits": [
+      "Government support",
+      "Financial or social assistance where applicable",
+      "Improved opportunities for women"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Bank Account (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://www.nsiindia.gov.in",
+    "keywords": [
+      "girl child",
+      "savings"
+    ],
+    "target_groups": [
+      "Women",
+      "Girls"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "WM004",
+    "name": "One Stop Centre Scheme",
+    "category": "Women",
+    "subcategory": "Women Safety",
+    "ministry": "Ministry of Women and Child Development",
+    "description": "One Stop Centre Scheme is a Government of India initiative supporting women's welfare, safety, empowerment or financial inclusion.",
+    "benefits": [
+      "Government support",
+      "Financial or social assistance where applicable",
+      "Improved opportunities for women"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Bank Account (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://sakhi.gov.in",
+    "keywords": [
+      "violence",
+      "support"
+    ],
+    "target_groups": [
+      "Women",
+      "Girls"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "WM005",
+    "name": "Mahila Shakti Kendra",
+    "category": "Women",
+    "subcategory": "Women Empowerment",
+    "ministry": "Ministry of Women and Child Development",
+    "description": "Mahila Shakti Kendra is a Government of India initiative supporting women's welfare, safety, empowerment or financial inclusion.",
+    "benefits": [
+      "Government support",
+      "Financial or social assistance where applicable",
+      "Improved opportunities for women"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Bank Account (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://wcd.gov.in",
+    "keywords": [
+      "empowerment"
+    ],
+    "target_groups": [
+      "Women",
+      "Girls"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "WM006",
+    "name": "Working Women Hostel Scheme",
+    "category": "Women",
+    "subcategory": "Accommodation",
+    "ministry": "Ministry of Women and Child Development",
+    "description": "Working Women Hostel Scheme is a Government of India initiative supporting women's welfare, safety, empowerment or financial inclusion.",
+    "benefits": [
+      "Government support",
+      "Financial or social assistance where applicable",
+      "Improved opportunities for women"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Bank Account (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://wcd.gov.in",
+    "keywords": [
+      "hostel",
+      "working women"
+    ],
+    "target_groups": [
+      "Women",
+      "Girls"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "WM007",
+    "name": "STEP Scheme",
+    "category": "Women",
+    "subcategory": "Skill Development",
+    "ministry": "Ministry of Women and Child Development",
+    "description": "STEP Scheme is a Government of India initiative supporting women's welfare, safety, empowerment or financial inclusion.",
+    "benefits": [
+      "Government support",
+      "Financial or social assistance where applicable",
+      "Improved opportunities for women"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Bank Account (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://wcd.gov.in",
+    "keywords": [
+      "training",
+      "employment"
+    ],
+    "target_groups": [
+      "Women",
+      "Girls"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "WM008",
+    "name": "Ujjawala Scheme",
+    "category": "Women",
+    "subcategory": "Anti Human Trafficking",
+    "ministry": "Ministry of Women and Child Development",
+    "description": "Ujjawala Scheme is a Government of India initiative supporting women's welfare, safety, empowerment or financial inclusion.",
+    "benefits": [
+      "Government support",
+      "Financial or social assistance where applicable",
+      "Improved opportunities for women"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Bank Account (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://wcd.gov.in",
+    "keywords": [
+      "rehabilitation",
+      "trafficking"
+    ],
+    "target_groups": [
+      "Women",
+      "Girls"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "WM009",
+    "name": "Swadhar Greh Scheme",
+    "category": "Women",
+    "subcategory": "Shelter",
+    "ministry": "Ministry of Women and Child Development",
+    "description": "Swadhar Greh Scheme is a Government of India initiative supporting women's welfare, safety, empowerment or financial inclusion.",
+    "benefits": [
+      "Government support",
+      "Financial or social assistance where applicable",
+      "Improved opportunities for women"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Bank Account (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://wcd.gov.in",
+    "keywords": [
+      "shelter",
+      "distress"
+    ],
+    "target_groups": [
+      "Women",
+      "Girls"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "WM010",
+    "name": "Mahila e-Haat",
+    "category": "Women",
+    "subcategory": "Entrepreneurship",
+    "ministry": "Ministry of Women and Child Development",
+    "description": "Mahila e-Haat is a Government of India initiative supporting women's welfare, safety, empowerment or financial inclusion.",
+    "benefits": [
+      "Government support",
+      "Financial or social assistance where applicable",
+      "Improved opportunities for women"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Bank Account (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://mahilaehaat-rmk.gov.in",
+    "keywords": [
+      "business",
+      "marketing"
+    ],
+    "target_groups": [
+      "Women",
+      "Girls"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "WM011",
+    "name": "Nari Shakti Puraskar",
+    "category": "Women",
+    "subcategory": "Awards",
+    "ministry": "Ministry of Women and Child Development",
+    "description": "Nari Shakti Puraskar is a Government of India initiative supporting women's welfare, safety, empowerment or financial inclusion.",
+    "benefits": [
+      "Government support",
+      "Financial or social assistance where applicable",
+      "Improved opportunities for women"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Bank Account (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://wcd.gov.in",
+    "keywords": [
+      "award",
+      "achievement"
+    ],
+    "target_groups": [
+      "Women",
+      "Girls"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "WM012",
+    "name": "National Creche Scheme",
+    "category": "Women",
+    "subcategory": "Child Care",
+    "ministry": "Ministry of Women and Child Development",
+    "description": "National Creche Scheme is a Government of India initiative supporting women's welfare, safety, empowerment or financial inclusion.",
+    "benefits": [
+      "Government support",
+      "Financial or social assistance where applicable",
+      "Improved opportunities for women"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Bank Account (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://wcd.gov.in",
+    "keywords": [
+      "creche",
+      "childcare"
+    ],
+    "target_groups": [
+      "Women",
+      "Girls"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "WM013",
+    "name": "Mission Shakti",
+    "category": "Women",
+    "subcategory": "Women Safety",
+    "ministry": "Ministry of Women and Child Development",
+    "description": "Mission Shakti is a Government of India initiative supporting women's welfare, safety, empowerment or financial inclusion.",
+    "benefits": [
+      "Government support",
+      "Financial or social assistance where applicable",
+      "Improved opportunities for women"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Bank Account (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://missionshakti.wcd.gov.in",
+    "keywords": [
+      "safety",
+      "empowerment"
+    ],
+    "target_groups": [
+      "Women",
+      "Girls"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "WM014",
+    "name": "PM Ujjwala Yojana",
+    "category": "Women",
+    "subcategory": "LPG Connection",
+    "ministry": "Ministry of Petroleum and Natural Gas",
+    "description": "PM Ujjwala Yojana is a Government of India initiative supporting women's welfare, safety, empowerment or financial inclusion.",
+    "benefits": [
+      "Government support",
+      "Financial or social assistance where applicable",
+      "Improved opportunities for women"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Bank Account (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://www.pmuy.gov.in",
+    "keywords": [
+      "lpg",
+      "gas"
+    ],
+    "target_groups": [
+      "Women",
+      "Girls"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "WM015",
+    "name": "Bima Sakhi Yojana",
+    "category": "Women",
+    "subcategory": "Financial Inclusion",
+    "ministry": "LIC of India",
+    "description": "Bima Sakhi Yojana is a Government of India initiative supporting women's welfare, safety, empowerment or financial inclusion.",
+    "benefits": [
+      "Government support",
+      "Financial or social assistance where applicable",
+      "Improved opportunities for women"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Bank Account (if applicable)"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://licindia.in",
+    "keywords": [
+      "insurance",
+      "women"
+    ],
+    "target_groups": [
+      "Women",
+      "Girls"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  }
+]

@@ -1,1 +1,636 @@
-[]
+[
+  {
+    "id": "BS001",
+    "name": "Pradhan Mantri Mudra Yojana (PMMY)",
+    "category": "Business",
+    "subcategory": "Business Loan",
+    "ministry": "Ministry of Finance",
+    "description": "Pradhan Mantri Mudra Yojana (PMMY) is a Government of India initiative supporting entrepreneurship, MSMEs, startups, business growth or financial assistance.",
+    "benefits": [
+      "Business support",
+      "Financial assistance or credit where applicable",
+      "Entrepreneurship and MSME development"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "PAN Card",
+      "Business Proof (if applicable)",
+      "Bank Account"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://www.mudra.org.in",
+    "keywords": [
+      "mudra",
+      "loan",
+      "business"
+    ],
+    "target_groups": [
+      "Entrepreneurs",
+      "MSMEs",
+      "Startups"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "BS002",
+    "name": "Stand-Up India Scheme",
+    "category": "Business",
+    "subcategory": "Startup Finance",
+    "ministry": "Department of Financial Services",
+    "description": "Stand-Up India Scheme is a Government of India initiative supporting entrepreneurship, MSMEs, startups, business growth or financial assistance.",
+    "benefits": [
+      "Business support",
+      "Financial assistance or credit where applicable",
+      "Entrepreneurship and MSME development"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "PAN Card",
+      "Business Proof (if applicable)",
+      "Bank Account"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://www.standupmitra.in",
+    "keywords": [
+      "startup",
+      "loan",
+      "women",
+      "sc",
+      "st"
+    ],
+    "target_groups": [
+      "Entrepreneurs",
+      "MSMEs",
+      "Startups"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "BS003",
+    "name": "Startup India",
+    "category": "Business",
+    "subcategory": "Startup Promotion",
+    "ministry": "Department for Promotion of Industry and Internal Trade",
+    "description": "Startup India is a Government of India initiative supporting entrepreneurship, MSMEs, startups, business growth or financial assistance.",
+    "benefits": [
+      "Business support",
+      "Financial assistance or credit where applicable",
+      "Entrepreneurship and MSME development"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "PAN Card",
+      "Business Proof (if applicable)",
+      "Bank Account"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://www.startupindia.gov.in",
+    "keywords": [
+      "startup",
+      "innovation"
+    ],
+    "target_groups": [
+      "Entrepreneurs",
+      "MSMEs",
+      "Startups"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "BS004",
+    "name": "Credit Guarantee Fund Trust for Micro and Small Enterprises (CGTMSE)",
+    "category": "Business",
+    "subcategory": "Credit Guarantee",
+    "ministry": "Ministry of MSME",
+    "description": "Credit Guarantee Fund Trust for Micro and Small Enterprises (CGTMSE) is a Government of India initiative supporting entrepreneurship, MSMEs, startups, business growth or financial assistance.",
+    "benefits": [
+      "Business support",
+      "Financial assistance or credit where applicable",
+      "Entrepreneurship and MSME development"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "PAN Card",
+      "Business Proof (if applicable)",
+      "Bank Account"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://www.cgtmse.in",
+    "keywords": [
+      "msme",
+      "credit"
+    ],
+    "target_groups": [
+      "Entrepreneurs",
+      "MSMEs",
+      "Startups"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "BS005",
+    "name": "Prime Minister Employment Generation Programme (PMEGP)",
+    "category": "Business",
+    "subcategory": "Self Employment",
+    "ministry": "Ministry of MSME",
+    "description": "Prime Minister Employment Generation Programme (PMEGP) is a Government of India initiative supporting entrepreneurship, MSMEs, startups, business growth or financial assistance.",
+    "benefits": [
+      "Business support",
+      "Financial assistance or credit where applicable",
+      "Entrepreneurship and MSME development"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "PAN Card",
+      "Business Proof (if applicable)",
+      "Bank Account"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://www.kviconline.gov.in/pmegp",
+    "keywords": [
+      "pmegp",
+      "enterprise"
+    ],
+    "target_groups": [
+      "Entrepreneurs",
+      "MSMEs",
+      "Startups"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "BS006",
+    "name": "Udyam Registration",
+    "category": "Business",
+    "subcategory": "MSME Registration",
+    "ministry": "Ministry of MSME",
+    "description": "Udyam Registration is a Government of India initiative supporting entrepreneurship, MSMEs, startups, business growth or financial assistance.",
+    "benefits": [
+      "Business support",
+      "Financial assistance or credit where applicable",
+      "Entrepreneurship and MSME development"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "PAN Card",
+      "Business Proof (if applicable)",
+      "Bank Account"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://udyamregistration.gov.in",
+    "keywords": [
+      "udyam",
+      "msme"
+    ],
+    "target_groups": [
+      "Entrepreneurs",
+      "MSMEs",
+      "Startups"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "BS007",
+    "name": "MSME Champions Scheme",
+    "category": "Business",
+    "subcategory": "MSME Support",
+    "ministry": "Ministry of MSME",
+    "description": "MSME Champions Scheme is a Government of India initiative supporting entrepreneurship, MSMEs, startups, business growth or financial assistance.",
+    "benefits": [
+      "Business support",
+      "Financial assistance or credit where applicable",
+      "Entrepreneurship and MSME development"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "PAN Card",
+      "Business Proof (if applicable)",
+      "Bank Account"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://champions.gov.in",
+    "keywords": [
+      "champions",
+      "msme"
+    ],
+    "target_groups": [
+      "Entrepreneurs",
+      "MSMEs",
+      "Startups"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "BS008",
+    "name": "ASPIRE Scheme",
+    "category": "Business",
+    "subcategory": "Innovation",
+    "ministry": "Ministry of MSME",
+    "description": "ASPIRE Scheme is a Government of India initiative supporting entrepreneurship, MSMEs, startups, business growth or financial assistance.",
+    "benefits": [
+      "Business support",
+      "Financial assistance or credit where applicable",
+      "Entrepreneurship and MSME development"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "PAN Card",
+      "Business Proof (if applicable)",
+      "Bank Account"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://msme.gov.in",
+    "keywords": [
+      "aspire",
+      "innovation"
+    ],
+    "target_groups": [
+      "Entrepreneurs",
+      "MSMEs",
+      "Startups"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "BS009",
+    "name": "SFURTI Scheme",
+    "category": "Business",
+    "subcategory": "Cluster Development",
+    "ministry": "Ministry of MSME",
+    "description": "SFURTI Scheme is a Government of India initiative supporting entrepreneurship, MSMEs, startups, business growth or financial assistance.",
+    "benefits": [
+      "Business support",
+      "Financial assistance or credit where applicable",
+      "Entrepreneurship and MSME development"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "PAN Card",
+      "Business Proof (if applicable)",
+      "Bank Account"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://msme.gov.in",
+    "keywords": [
+      "cluster",
+      "traditional"
+    ],
+    "target_groups": [
+      "Entrepreneurs",
+      "MSMEs",
+      "Startups"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "BS010",
+    "name": "Trade Infrastructure for Export Scheme (TIES)",
+    "category": "Business",
+    "subcategory": "Exports",
+    "ministry": "Department of Commerce",
+    "description": "Trade Infrastructure for Export Scheme (TIES) is a Government of India initiative supporting entrepreneurship, MSMEs, startups, business growth or financial assistance.",
+    "benefits": [
+      "Business support",
+      "Financial assistance or credit where applicable",
+      "Entrepreneurship and MSME development"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "PAN Card",
+      "Business Proof (if applicable)",
+      "Bank Account"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://commerce.gov.in",
+    "keywords": [
+      "export",
+      "trade"
+    ],
+    "target_groups": [
+      "Entrepreneurs",
+      "MSMEs",
+      "Startups"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "BS011",
+    "name": "One District One Product (ODOP)",
+    "category": "Business",
+    "subcategory": "Local Products",
+    "ministry": "Ministry of Commerce and Industry",
+    "description": "One District One Product (ODOP) is a Government of India initiative supporting entrepreneurship, MSMEs, startups, business growth or financial assistance.",
+    "benefits": [
+      "Business support",
+      "Financial assistance or credit where applicable",
+      "Entrepreneurship and MSME development"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "PAN Card",
+      "Business Proof (if applicable)",
+      "Bank Account"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://www.odop.gov.in",
+    "keywords": [
+      "odop",
+      "products"
+    ],
+    "target_groups": [
+      "Entrepreneurs",
+      "MSMEs",
+      "Startups"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "BS012",
+    "name": "Government e-Marketplace (GeM)",
+    "category": "Business",
+    "subcategory": "Government Procurement",
+    "ministry": "Ministry of Commerce and Industry",
+    "description": "Government e-Marketplace (GeM) is a Government of India initiative supporting entrepreneurship, MSMEs, startups, business growth or financial assistance.",
+    "benefits": [
+      "Business support",
+      "Financial assistance or credit where applicable",
+      "Entrepreneurship and MSME development"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "PAN Card",
+      "Business Proof (if applicable)",
+      "Bank Account"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://gem.gov.in",
+    "keywords": [
+      "gem",
+      "procurement"
+    ],
+    "target_groups": [
+      "Entrepreneurs",
+      "MSMEs",
+      "Startups"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "BS013",
+    "name": "PM Vishwakarma",
+    "category": "Business",
+    "subcategory": "Traditional Artisans",
+    "ministry": "Ministry of MSME",
+    "description": "PM Vishwakarma is a Government of India initiative supporting entrepreneurship, MSMEs, startups, business growth or financial assistance.",
+    "benefits": [
+      "Business support",
+      "Financial assistance or credit where applicable",
+      "Entrepreneurship and MSME development"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "PAN Card",
+      "Business Proof (if applicable)",
+      "Bank Account"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://pmvishwakarma.gov.in",
+    "keywords": [
+      "artisan",
+      "craft"
+    ],
+    "target_groups": [
+      "Entrepreneurs",
+      "MSMEs",
+      "Startups"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "BS014",
+    "name": "Self Reliant India (SRI) Fund",
+    "category": "Business",
+    "subcategory": "MSME Funding",
+    "ministry": "Ministry of MSME",
+    "description": "Self Reliant India (SRI) Fund is a Government of India initiative supporting entrepreneurship, MSMEs, startups, business growth or financial assistance.",
+    "benefits": [
+      "Business support",
+      "Financial assistance or credit where applicable",
+      "Entrepreneurship and MSME development"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "PAN Card",
+      "Business Proof (if applicable)",
+      "Bank Account"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://www.sidbi.in",
+    "keywords": [
+      "sidbi",
+      "fund"
+    ],
+    "target_groups": [
+      "Entrepreneurs",
+      "MSMEs",
+      "Startups"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "BS015",
+    "name": "ZED Certification Scheme",
+    "category": "Business",
+    "subcategory": "Quality Certification",
+    "ministry": "Ministry of MSME",
+    "description": "ZED Certification Scheme is a Government of India initiative supporting entrepreneurship, MSMEs, startups, business growth or financial assistance.",
+    "benefits": [
+      "Business support",
+      "Financial assistance or credit where applicable",
+      "Entrepreneurship and MSME development"
+    ],
+    "eligibility": [
+      "Indian citizen",
+      "Must satisfy scheme-specific eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "PAN Card",
+      "Business Proof (if applicable)",
+      "Bank Account"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://zed.msme.gov.in",
+    "keywords": [
+      "zed",
+      "quality"
+    ],
+    "target_groups": [
+      "Entrepreneurs",
+      "MSMEs",
+      "Startups"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  }
+]
