@@ -6,6 +6,8 @@ from openai import OpenAI
 import os
 import json
 from pathlib import Path
+from utils.data_loader import load_schemes
+from utils.recommendation_engine import recommend_schemes
 
 load_dotenv()
 
@@ -25,13 +27,16 @@ client = OpenAI(
 )
 DATA_DIR = Path(__file__).parent / "data"
 
+# Load services
 with open(DATA_DIR / "services.json", "r", encoding="utf-8") as f:
     SERVICES = json.load(f)
-with open(DATA_DIR / "schemes.json", "r", encoding="utf-8") as f:
-    SCHEMES = json.load(f)
 
+# Load documents
 with open(DATA_DIR / "documents.json", "r", encoding="utf-8") as f:
-    DOCUMENTS = json.load(f)    
+    DOCUMENTS = json.load(f)
+
+# Load all schemes from the schemes folder
+SCHEMES = load_schemes()
 
 
 class ChatRequest(BaseModel):
@@ -100,7 +105,7 @@ def find_information(user_message):
 
     # Search Schemes
     for scheme in SCHEMES:
-        if scheme["scheme"].lower() in message:
+        if scheme["name"].lower() in message:
             context.append(
                 {
                     "type": "Scheme",
@@ -119,6 +124,29 @@ def find_information(user_message):
             )
 
     return context
+def find_schemes(query: str):
+    query = query.lower().strip()
+
+    matches = []
+
+    for scheme in SCHEMES:
+
+        searchable_text = " ".join([
+            scheme.get("name", ""),
+            scheme.get("category", ""),
+            scheme.get("subcategory", ""),
+            scheme.get("description", ""),
+            " ".join(scheme.get("keywords", [])),
+            " ".join(scheme.get("benefits", [])),
+            " ".join(scheme.get("eligibility", [])),
+            " ".join(scheme.get("documents", [])),
+            " ".join(scheme.get("target_groups", []))
+        ]).lower()
+
+        if query in searchable_text:
+            matches.append(scheme)
+
+    return matches
 
 @app.post("/chat")
 def chat(request: ChatRequest):
@@ -170,4 +198,101 @@ def checklist(request: ChatRequest):
 
     return {
         "error": "No service found."
+    }
+@app.post("/find-schemes")
+def find_scheme(request: ChatRequest):
+
+    schemes = find_schemes(request.message)
+
+    if not schemes:
+        return {
+            "success": False,
+            "message": "No matching schemes found."
+        }
+
+    return {
+        "success": True,
+        "count": len(schemes),
+        "schemes": schemes
+    }
+@app.post("/recommend")
+def recommend(request: ChatRequest):
+
+    recommendations = recommend_schemes(
+        request.message,
+        SCHEMES
+    )
+
+    if not recommendations:
+        return {
+            "success": False,
+            "message": "No recommendations found."
+        }
+
+    return {
+        "success": True,
+        "recommendations": recommendations
+    }
+@app.post("/recommend-summary")
+def recommend_summary(request: ChatRequest):
+
+    recommendations = recommend_schemes(
+        request.message,
+        SCHEMES
+    )
+
+    if not recommendations:
+        return {
+            "success": False,
+            "summary": "No suitable government schemes were found."
+        }
+
+    top_schemes = "\n".join(
+        [
+            f"- {item['scheme']['name']}: {item['scheme']['description']}"
+            for item in recommendations[:3]
+        ]
+    )
+
+    prompt = f"""
+A citizen asked:
+
+{request.message}
+
+Recommended schemes:
+
+{top_schemes}
+
+Write a concise explanation (40-60 words).
+
+Use only 3-4 short sentences.
+
+Avoid repetition.
+
+Keep the language simple.
+
+Explain:
+- Why these schemes were recommended.
+- What benefit the citizen may get.
+- Keep it simple and beginner friendly.
+- Do not invent facts.
+"""
+
+    response = client.chat.completions.create(
+        model="meta-llama/llama-3.1-8b-instruct",
+        messages=[
+            {
+                "role": "system",
+                "content": "You are Bharat AI Citizen Assistant."
+            },
+            {
+                "role": "user",
+                "content": prompt
+            }
+        ]
+    )
+
+    return {
+        "success": True,
+        "summary": response.choices[0].message.content
     }

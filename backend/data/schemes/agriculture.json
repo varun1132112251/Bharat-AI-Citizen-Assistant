@@ -1,0 +1,691 @@
+[
+  {
+    "id": "AG001",
+    "name": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
+    "category": "Agriculture",
+    "subcategory": "Income Support",
+    "ministry": "Ministry of Agriculture and Farmers Welfare",
+    "description": "Provides income support to eligible farmer families.",
+    "benefits": [
+      "₹6,000/year",
+      "DBT",
+      "Three installments"
+    ],
+    "eligibility": [
+      "Eligible farmer family",
+      "Indian citizen"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Bank Account",
+      "Land Records"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://pmkisan.gov.in",
+    "keywords": [
+      "farmer",
+      "kisan",
+      "income"
+    ],
+    "target_groups": [
+      "Farmers"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "AG002",
+    "name": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
+    "category": "Agriculture",
+    "subcategory": "Crop Insurance",
+    "ministry": "Ministry of Agriculture and Farmers Welfare",
+    "description": "Crop insurance against natural calamities, pests and diseases.",
+    "benefits": [
+      "Crop loss coverage",
+      "Low premium"
+    ],
+    "eligibility": [
+      "Farmers with notified crops"
+    ],
+    "documents": [
+      "Aadhaar",
+      "Bank Account",
+      "Land Records"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://pmfby.gov.in",
+    "keywords": [
+      "crop",
+      "insurance",
+      "bima"
+    ],
+    "target_groups": [
+      "Farmers"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "AG003",
+    "name": "Kisan Credit Card (KCC)",
+    "category": "Agriculture",
+    "subcategory": "Agricultural Credit",
+    "ministry": "Ministry of Agriculture and Farmers Welfare",
+    "description": "Provides timely and affordable credit to farmers.",
+    "benefits": [
+      "Short-term credit",
+      "Flexible repayment"
+    ],
+    "eligibility": [
+      "Eligible farmers"
+    ],
+    "documents": [
+      "Aadhaar",
+      "Bank Passbook"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://www.myscheme.gov.in",
+    "keywords": [
+      "loan",
+      "credit",
+      "kcc"
+    ],
+    "target_groups": [
+      "Farmers"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "AG004",
+    "name": "Soil Health Card Scheme",
+    "category": "Agriculture",
+    "subcategory": "Soil Management",
+    "ministry": "Ministry of Agriculture and Farmers Welfare",
+    "description": "Promotes soil testing and nutrient management.",
+    "benefits": [
+      "Soil testing",
+      "Fertilizer recommendations"
+    ],
+    "eligibility": [
+      "Farmers"
+    ],
+    "documents": [
+      "Aadhaar"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://www.myscheme.gov.in",
+    "keywords": [
+      "soil",
+      "fertility"
+    ],
+    "target_groups": [
+      "Farmers"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "AG005",
+    "name": "Pradhan Mantri Krishi Sinchayee Yojana (PMKSY)",
+    "category": "Agriculture",
+    "subcategory": "Irrigation",
+    "ministry": "Ministry of Agriculture and Farmers Welfare",
+    "description": "Improves irrigation efficiency.",
+    "benefits": [
+      "Better irrigation",
+      "Water conservation"
+    ],
+    "eligibility": [
+      "Eligible farmers"
+    ],
+    "documents": [
+      "Aadhaar",
+      "Land Records"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://www.myscheme.gov.in",
+    "keywords": [
+      "irrigation",
+      "water"
+    ],
+    "target_groups": [
+      "Farmers"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 5,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "AG006",
+    "name": "e-NAM",
+    "category": "Agriculture",
+    "subcategory": "Agricultural Marketing",
+    "ministry": "Ministry of Agriculture and Farmers Welfare",
+    "description": "Online agricultural market platform.",
+    "benefits": [
+      "Better market access"
+    ],
+    "eligibility": [
+      "Farmers",
+      "Traders"
+    ],
+    "documents": [
+      "Identity Proof"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://www.enam.gov.in",
+    "keywords": [
+      "market",
+      "enam"
+    ],
+    "target_groups": [
+      "Farmers"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "AG007",
+    "name": "Rashtriya Krishi Vikas Yojana (RKVY)",
+    "category": "Agriculture",
+    "subcategory": "Agricultural Development",
+    "ministry": "Ministry of Agriculture and Farmers Welfare",
+    "description": "Supports state agriculture development.",
+    "benefits": [
+      "Infrastructure",
+      "Innovation"
+    ],
+    "eligibility": [
+      "As per guidelines"
+    ],
+    "documents": [
+      "Relevant documents"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://www.myscheme.gov.in",
+    "keywords": [
+      "rkvy"
+    ],
+    "target_groups": [
+      "Farmers"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "AG008",
+    "name": "Paramparagat Krishi Vikas Yojana (PKVY)",
+    "category": "Agriculture",
+    "subcategory": "Organic Farming",
+    "ministry": "Ministry of Agriculture and Farmers Welfare",
+    "description": "Promotes organic farming.",
+    "benefits": [
+      "Organic certification support"
+    ],
+    "eligibility": [
+      "Interested farmers"
+    ],
+    "documents": [
+      "Aadhaar"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://www.myscheme.gov.in",
+    "keywords": [
+      "organic"
+    ],
+    "target_groups": [
+      "Farmers"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "AG009",
+    "name": "National Food Security Mission (NFSM)",
+    "category": "Agriculture",
+    "subcategory": "Food Production",
+    "ministry": "Ministry of Agriculture and Farmers Welfare",
+    "description": "Increase production of food grains.",
+    "benefits": [
+      "Productivity support"
+    ],
+    "eligibility": [
+      "Eligible farmers"
+    ],
+    "documents": [
+      "Aadhaar"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://www.myscheme.gov.in",
+    "keywords": [
+      "food",
+      "grains"
+    ],
+    "target_groups": [
+      "Farmers"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "AG010",
+    "name": "Mission for Integrated Development of Horticulture (MIDH)",
+    "category": "Agriculture",
+    "subcategory": "Horticulture",
+    "ministry": "Ministry of Agriculture and Farmers Welfare",
+    "description": "Supports horticulture development.",
+    "benefits": [
+      "Subsidies",
+      "Training"
+    ],
+    "eligibility": [
+      "Eligible growers"
+    ],
+    "documents": [
+      "Aadhaar"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://midh.gov.in",
+    "keywords": [
+      "horticulture"
+    ],
+    "target_groups": [
+      "Farmers"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "AG011",
+    "name": "National Horticulture Mission",
+    "category": "Agriculture",
+    "subcategory": "Horticulture",
+    "ministry": "Ministry of Agriculture and Farmers Welfare",
+    "description": "Promotes horticulture sector.",
+    "benefits": [
+      "Financial assistance"
+    ],
+    "eligibility": [
+      "Eligible farmers"
+    ],
+    "documents": [
+      "Aadhaar"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://midh.gov.in",
+    "keywords": [
+      "fruits",
+      "vegetables"
+    ],
+    "target_groups": [
+      "Farmers"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "AG012",
+    "name": "National Bamboo Mission",
+    "category": "Agriculture",
+    "subcategory": "Bamboo",
+    "ministry": "Ministry of Agriculture and Farmers Welfare",
+    "description": "Supports bamboo cultivation.",
+    "benefits": [
+      "Plantation support"
+    ],
+    "eligibility": [
+      "Eligible farmers"
+    ],
+    "documents": [
+      "Aadhaar"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://www.myscheme.gov.in",
+    "keywords": [
+      "bamboo"
+    ],
+    "target_groups": [
+      "Farmers"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "AG013",
+    "name": "Sub-Mission on Agricultural Mechanization (SMAM)",
+    "category": "Agriculture",
+    "subcategory": "Mechanization",
+    "ministry": "Ministry of Agriculture and Farmers Welfare",
+    "description": "Promotes farm mechanization.",
+    "benefits": [
+      "Machinery subsidy"
+    ],
+    "eligibility": [
+      "Eligible farmers"
+    ],
+    "documents": [
+      "Aadhaar"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://www.myscheme.gov.in",
+    "keywords": [
+      "tractor",
+      "machinery"
+    ],
+    "target_groups": [
+      "Farmers"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "AG014",
+    "name": "Agriculture Infrastructure Fund",
+    "category": "Agriculture",
+    "subcategory": "Infrastructure",
+    "ministry": "Ministry of Agriculture and Farmers Welfare",
+    "description": "Financing for agriculture infrastructure.",
+    "benefits": [
+      "Credit support"
+    ],
+    "eligibility": [
+      "Eligible entities"
+    ],
+    "documents": [
+      "Project documents"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://agriinfra.dac.gov.in",
+    "keywords": [
+      "warehouse"
+    ],
+    "target_groups": [
+      "Farmers"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "AG015",
+    "name": "PM Kisan Maandhan Yojana",
+    "category": "Agriculture",
+    "subcategory": "Pension",
+    "ministry": "Ministry of Agriculture and Farmers Welfare",
+    "description": "Pension scheme for small farmers.",
+    "benefits": [
+      "Monthly pension"
+    ],
+    "eligibility": [
+      "Small farmers"
+    ],
+    "documents": [
+      "Aadhaar",
+      "Bank"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://maandhan.in",
+    "keywords": [
+      "pension"
+    ],
+    "target_groups": [
+      "Farmers"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "AG016",
+    "name": "National Livestock Mission",
+    "category": "Agriculture",
+    "subcategory": "Livestock",
+    "ministry": "Ministry of Agriculture and Farmers Welfare",
+    "description": "Development of livestock sector.",
+    "benefits": [
+      "Livestock assistance"
+    ],
+    "eligibility": [
+      "Eligible beneficiaries"
+    ],
+    "documents": [
+      "Aadhaar"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://www.myscheme.gov.in",
+    "keywords": [
+      "livestock"
+    ],
+    "target_groups": [
+      "Farmers"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "AG017",
+    "name": "ATMA Scheme",
+    "category": "Agriculture",
+    "subcategory": "Extension Services",
+    "ministry": "Ministry of Agriculture and Farmers Welfare",
+    "description": "Farmer training and extension.",
+    "benefits": [
+      "Training"
+    ],
+    "eligibility": [
+      "Farmers"
+    ],
+    "documents": [
+      "Identity Proof"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://www.myscheme.gov.in",
+    "keywords": [
+      "training"
+    ],
+    "target_groups": [
+      "Farmers"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "AG018",
+    "name": "Agri Clinics and Agri Business Centres",
+    "category": "Agriculture",
+    "subcategory": "Agribusiness",
+    "ministry": "Ministry of Agriculture and Farmers Welfare",
+    "description": "Supports agri entrepreneurs.",
+    "benefits": [
+      "Business support"
+    ],
+    "eligibility": [
+      "Agriculture graduates"
+    ],
+    "documents": [
+      "Identity"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://www.myscheme.gov.in",
+    "keywords": [
+      "agribusiness"
+    ],
+    "target_groups": [
+      "Farmers"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "AG019",
+    "name": "Rainfed Area Development",
+    "category": "Agriculture",
+    "subcategory": "Rainfed Farming",
+    "ministry": "Ministry of Agriculture and Farmers Welfare",
+    "description": "Improves productivity in rainfed areas.",
+    "benefits": [
+      "Resource support"
+    ],
+    "eligibility": [
+      "Eligible farmers"
+    ],
+    "documents": [
+      "Aadhaar"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://www.myscheme.gov.in",
+    "keywords": [
+      "rainfed"
+    ],
+    "target_groups": [
+      "Farmers"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  },
+  {
+    "id": "AG020",
+    "name": "National Mission on Edible Oils",
+    "category": "Agriculture",
+    "subcategory": "Oilseeds",
+    "ministry": "Ministry of Agriculture and Farmers Welfare",
+    "description": "Promotes oilseed production.",
+    "benefits": [
+      "Production incentives"
+    ],
+    "eligibility": [
+      "Eligible farmers"
+    ],
+    "documents": [
+      "Aadhaar"
+    ],
+    "application_mode": "Online & Offline",
+    "official_link": "https://www.myscheme.gov.in",
+    "keywords": [
+      "oilseeds"
+    ],
+    "target_groups": [
+      "Farmers"
+    ],
+    "language_support": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "priority": 4,
+    "state_specific": false,
+    "last_updated": "2026"
+  }
+]

@@ -7,23 +7,35 @@ import ChatInput from "./components/ChatInput";
 import { speak } from "./services/ttsService";
 import { getChecklist } from "./services/checklistService";
 import ChecklistCard from "./components/ChecklistCard";
-
+import RecommendationCards from "./components/RecommendationCards";
+import { getRecommendations } from "./services/recommendationService";
+import { getRecommendationSummary } from "./services/summaryService";
+import RecommendationSummary from "./components/RecommendationSummary";
+import QuickActions from "./components/QuickActions";
 function App() {
   const [message, setMessage] = useState("");
   const [checklist, setChecklist] = useState(null);
   const [language, setLanguage] = useState("en-IN");
-
+  const [recommendations, setRecommendations] = useState([]);
+  const [summary, setSummary] = useState("");
   const [chat, setChat] = useState([
     {
       sender: "AI",
       text: "Hello! I am Bharat AI Citizen Assistant. How can I help you today?",
     },
   ]);
+  function handleQuickAction(query) {
+    setMessage(query);
 
-  async function handleSend() {
-    if (message.trim() === "") return;
+    setTimeout(() => {
+      handleSend(query);
+    }, 100);
+  }
 
-    const userMessage = message;
+  async function handleSend(customMessage = null) {
+    const userMessage = customMessage || message;
+    if (userMessage.trim() === "") return;
+    
 
     setChat((prev) => [
       ...prev,
@@ -49,6 +61,24 @@ function App() {
       const data = await response.json();
       const checklistData = await getChecklist(userMessage);
        setChecklist(checklistData);
+      const recommendationData =
+        await getRecommendations(userMessage);
+
+      if (recommendationData.success) {
+        setRecommendations(
+          recommendationData.recommendations
+        );
+      } else {
+        setRecommendations([]);
+      } 
+      const summaryData =
+          await getRecommendationSummary(userMessage);
+
+      if (summaryData.success) {
+        setSummary(summaryData.summary);
+      } else {
+        setSummary("");
+      }
       // 🔊 Speak the AI response
        speak(data.reply, language);
 
@@ -80,8 +110,20 @@ function App() {
         setLanguage={setLanguage}
         
         />
+        <QuickActions
+          onSelect={handleQuickAction}
+        />
 
         <ChatWindow chat={chat} />
+        {summary && (
+           <RecommendationSummary summary={summary} />
+        )}
+
+        {recommendations.length > 0 && (
+            <RecommendationCards
+                recommendations={recommendations}
+            />
+        )}
         {checklist && <ChecklistCard data={checklist} />}
         <ChatInput
           message={message}
