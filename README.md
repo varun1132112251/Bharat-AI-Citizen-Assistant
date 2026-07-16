@@ -1,12 +1,11 @@
 🇮🇳 Bharat AI Citizen Assistant
 
 «An AI-powered digital assistant that simplifies access to Indian government services, schemes, and documentation for every citizen.»
-
-"Status" (https://img.shields.io/badge/Status-MVP-success)
-"React" (https://img.shields.io/badge/Frontend-React-blue)
-"FastAPI" (https://img.shields.io/badge/Backend-FastAPI-green)
-"OpenRouter" (https://img.shields.io/badge/AI-OpenRouter-orange)
-"License" (https://img.shields.io/badge/License-MIT-yellow)
+![Status](https://img.shields.io/badge/Status-MVP-success-brightgreen)
+![React](https://img.shields.io/badge/Frontend-React-61DAFB?logo=react&logoColor=white)
+![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688?logo=fastapi&logoColor=white)
+![OpenRouter](https://img.shields.io/badge/AI-OpenRouter-orange)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
 ---
 
