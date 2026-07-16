@@ -243,13 +243,13 @@ OPENROUTER_API_KEY=YOUR_API_KEY
 
 ### 🏠 Home Screen
 
-![Home Screen](Screenshots/home.png)
+![Home Screen](Screenshots/Home.png)
 
 ---
 
 ### 💬 AI Chat Interface
 
-![Chat Interface](Screenshots/chat.png)
+![Chat Interface](Screenshots/Chat.png)
 
 ---
 
