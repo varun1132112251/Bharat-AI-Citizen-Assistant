@@ -239,23 +239,26 @@ OPENROUTER_API_KEY=YOUR_API_KEY
 
 ---
 
-📸 Screenshots
+## 📸 Screenshots
 
-Add screenshots here after completing the project.
+### 🏠 Home Screen
 
-Example:
-
-screenshots/
-
-Home.png
-
-Chat.png
-
-Recommendations.png
-
-Voice.png
+![Home Screen](Screenshots/home.png)
 
 ---
+
+### 💬 AI Chat Interface
+
+![Chat Interface](Screenshots/chat.png)
+
+---
+
+### 🌐 AI Recommendation
+
+![AI_Recommendation](Screenshots/AI_Recommendation.png)
+
+---
+
 
 🎯 Use Cases
 
