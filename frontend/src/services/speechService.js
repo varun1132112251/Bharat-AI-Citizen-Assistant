@@ -1,38 +1,80 @@
-const SpeechRecognition =
-  window.SpeechRecognition || window.webkitSpeechRecognition;
+import RecordRTC from "recordrtc";
 
-export function startListening(language, onResult) {
-  if (!SpeechRecognition) {
-    alert("Speech Recognition is not supported.");
-    return;
-  }
+let recorder = null;
+let stream = null;
+let callback = null;
+let statusCallback = null;
+let selectedLanguage = "en-IN";
 
-  const recognition = new SpeechRecognition();
+export async function startListening(language, onResult, onStatus) {
+  try {
+    callback = onResult;
+    statusCallback = onStatus;
+    selectedLanguage = language;
 
-  recognition.lang = language;
-  recognition.continuous = false;
-  recognition.interimResults = false;
+    stream = await navigator.mediaDevices.getUserMedia({
+      audio: true,
+    });
 
-  recognition.onstart = () => {
-    console.log("🎤 Listening started...");
-  };
+    recorder = new RecordRTC(stream, {
+      type: "audio",
+      mimeType: "audio/wav",
+      recorderType: RecordRTC.StereoAudioRecorder,
+      desiredSampRate: 16000,
+      numberOfAudioChannels: 1,
+    });
+    statusCallback("🎤 Listening...");
+    recorder.startRecording();
 
-  recognition.onresult = (event) => {
-    console.log("Result received:", event.results);
+    console.log("🎤 Recording started...");
+  } catch (err) {
+    console.error("Speech Error:", err);
 
-    const transcript = event.results[0][0].transcript;
-    console.log("Transcript:", transcript);
+    alert(
+        err.message ||
+        JSON.stringify(err) ||
+        "Microphone error"
+    );
+}
+}
 
-    onResult(transcript);
-  };
+export async function stopListening() {
+  if (!recorder) return;
 
-  recognition.onerror = (event) => {
-    console.error("Speech Error:", event.error);
-  };
+  recorder.stopRecording(async () => {
+    const blob = recorder.getBlob();
+    statusCallback?.("☁️ Uploading audio...");
 
-  recognition.onend = () => {
-    console.log("🎤 Listening ended");
-  };
+    const formData = new FormData();
+    formData.append("audio_file", blob, "recording.wav");
+    formData.append("language", selectedLanguage);
+    try {
+      statusCallback?.("📝 Transcribing...");
+      const response = await fetch(
+        "http://127.0.0.1:8000/speech-to-text",
+        {
+          method: "POST",
+          body: formData,
+        }
+      );
 
-  recognition.start();
+      const data = await response.json();
+
+      if (data.success) {
+        callback(data.transcript);
+      } else {
+        alert(data.error?.message || "Speech recognition failed.");
+      }
+    } catch (err) {
+      console.error(err);
+      alert("Backend connection failed.");
+    }
+
+    stream.getTracks().forEach((track) => track.stop());
+
+    recorder = null;
+    stream = null;
+    callback = null;
+    statusCallback = null;
+  });
 }

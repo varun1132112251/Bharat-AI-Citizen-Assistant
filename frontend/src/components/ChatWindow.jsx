@@ -2,7 +2,7 @@ import { useEffect, useRef } from "react";
 import ChatBubble from "./ChatBubble";
 
 
-function ChatWindow({ chat, loading }) {
+function ChatWindow({ chat, loading, voiceStatus }) {
   const bottomRef = useRef(null);
 
   useEffect(() => {
@@ -22,12 +22,26 @@ function ChatWindow({ chat, loading }) {
 
       {loading && (
         <div className="chat-row ai">
-          <div className="chat-bubble ai-bubble typing-bubble">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span className="thinking-text">Thinking...</span>
-          </div>
+        <div className="chat-bubble ai-bubble typing-bubble">
+
+          {voiceStatus && (
+            <div
+              style={{
+                fontSize: "14px",
+                marginBottom: "8px",
+                color: "#666",
+                fontWeight: "500",
+              }}
+            >
+              {voiceStatus}
+            </div>
+          )}
+
+          <span></span>
+          <span></span>
+          <span></span>
+
+        </div>
         </div>
       )}
       <div ref={bottomRef}></div>

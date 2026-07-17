@@ -8,6 +8,10 @@ import json
 from pathlib import Path
 from utils.data_loader import load_schemes
 from utils.recommendation_engine import recommend_schemes
+import requests
+
+from fastapi import UploadFile, File, Form
+from fastapi.responses import JSONResponse, Response
 
 load_dotenv()
 
@@ -41,6 +45,9 @@ SCHEMES = load_schemes()
 
 class ChatRequest(BaseModel):
     message: str
+class TTSRequest(BaseModel):
+    text: str
+    language: str = "en-IN"    
 
 
 SYSTEM_PROMPT = """
@@ -375,3 +382,112 @@ def assistant(request: ChatRequest):
         "recommendations": recommendations,
         "checklist": checklist
     }
+
+@app.post("/speech-to-text")
+async def speech_to_text(
+    audio_file: UploadFile = File(...),
+    language: str = Form("en-IN")
+):
+    print("Selected language:", language)
+
+    api_key = os.getenv("GNANI_API_KEY")
+
+    url = "https://api.vachana.ai/stt/v3"
+
+    headers = {
+        "X-API-Key-ID": api_key
+    }
+
+    files = {
+        "audio_file": (
+            audio_file.filename,
+            await audio_file.read(),
+            audio_file.content_type,
+        )
+    }
+
+    data = {
+        "language_code": language,
+        "preferred_language": language,
+        "format": "transcribe",
+        "itn_native_numerals": "true"
+    }
+
+    try:
+
+        response = requests.post(
+            url,
+            headers=headers,
+            files=files,
+            data=data,
+            timeout=60
+        )
+
+        return response.json()
+
+    except Exception as e:
+
+        return JSONResponse(
+            status_code=500,
+            content={
+                "success": False,
+                "error": str(e)
+            }
+        )
+@app.post("/text-to-speech")
+def text_to_speech(request: TTSRequest):
+
+    api_key = os.getenv("GNANI_API_KEY")
+
+    headers = {
+        "Content-Type": "application/json",
+        "X-API-Key-ID": api_key,
+    }
+    print("Text length:", len(request.text))
+    print("Text:", request.text)
+
+    payload = {
+        "text": request.text[:300],
+        "voice": "Pranav",
+        "model": "vachana-voice-v3",
+        "audio_config": {
+            "sample_rate": 44100,
+            "num_channels": 1,
+            "sample_width": 2,
+            "encoding": "linear_pcm",
+            "container": "wav"
+        }
+    }
+
+    try:
+        response = requests.post(
+            "https://api.vachana.ai/api/v1/tts/inference",
+            headers=headers,
+            json=payload,
+            timeout=60
+        )
+
+        print("=" * 60)
+        print("Gnani Status:", response.status_code)
+        print("Gnani Content-Type:", response.headers.get("content-type"))
+        print("Response Preview:", response.text[:500])
+        print("=" * 60)
+
+        response.raise_for_status()
+
+        return Response(
+            content=response.content,
+            media_type=response.headers.get("content-type", "audio/wav")
+        )
+
+    except Exception as e:
+        import traceback
+        traceback.print_exc()
+
+        return JSONResponse(
+            status_code=500,
+            content={
+                "success": False,
+                "error": str(e)
+            }
+        )

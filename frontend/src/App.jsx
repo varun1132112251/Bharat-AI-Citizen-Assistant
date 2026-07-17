@@ -14,6 +14,8 @@ function App() {
   const [checklist, setChecklist] = useState(null);
   const [language, setLanguage] = useState("en-IN");
   const [loading, setLoading] = useState(false);
+  const [isRecording, setIsRecording] = useState(false);
+  const [voiceStatus, setVoiceStatus] = useState("");
   const [recommendations, setRecommendations] = useState([]);
   const [summary, setSummary] = useState("");
   const [showQuickActions, setShowQuickActions] = useState(true);
@@ -70,7 +72,7 @@ function App() {
 
       setChecklist(data.checklist || null);
       // 🔊 Speak the AI response
-       speak(data.reply, language);
+       await speak(data.reply, language);
 
 
       setChat((prev) => [
@@ -144,6 +146,9 @@ function App() {
         handleSend={handleSend}
         language={language}
         loading={loading}
+        isRecording={isRecording}
+        setIsRecording={setIsRecording}
+        setVoiceStatus={setVoiceStatus}
       />
       </div>
     </div>
