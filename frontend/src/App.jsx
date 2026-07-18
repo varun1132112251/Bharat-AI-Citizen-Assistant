@@ -61,6 +61,7 @@ function App() {
         },
         body: JSON.stringify({
           message: userMessage,
+          language: language,
         }),
       });
       const data = await response.json();

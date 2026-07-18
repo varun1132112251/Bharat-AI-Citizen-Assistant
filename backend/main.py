@@ -9,7 +9,7 @@ from pathlib import Path
 from utils.data_loader import load_schemes
 from utils.recommendation_engine import recommend_schemes
 import requests
-
+import time
 from fastapi import UploadFile, File, Form
 from fastapi.responses import JSONResponse, Response
 
@@ -45,6 +45,7 @@ SCHEMES = load_schemes()
 
 class ChatRequest(BaseModel):
     message: str
+    language: str = "en-IN"
 class TTSRequest(BaseModel):
     text: str
     language: str = "en-IN"    
@@ -305,6 +306,20 @@ Explain:
     }
 @app.post("/assistant")
 def assistant(request: ChatRequest):
+    start = time.time()
+    language_names = {
+        "en-IN": "English",
+        "hi-IN": "Hindi",
+        "te-IN": "Telugu",
+        "ta-IN": "Tamil",
+        "kn-IN": "Kannada",
+        "bn-IN": "Bengali",
+    }
+
+    selected_language = language_names.get(
+        request.language,
+        "English"
+    )
 
     # ---------- Chat ----------
     results = find_information(request.message)
@@ -316,9 +331,10 @@ def assistant(request: ChatRequest):
 
         for key, value in item["data"].items():
             extra_context += f"{key}: {value}\n"
-
+    print("Calling OpenRouter...")
     response = client.chat.completions.create(
-        model="meta-llama/llama-3.1-8b-instruct",
+        model="deepseek/deepseek-chat-v3",
+        max_tokens=250,
         messages=[
             {
                 "role": "system",
@@ -326,12 +342,36 @@ def assistant(request: ChatRequest):
             },
             {
                 "role": "user",
-                "content": f"{extra_context}\n\nCitizen Question:\n{request.message}",
+                "content": f"""
+            Respond ONLY in {selected_language}.
+
+            IMPORTANT RULES:
+            - Keep the answer under 80 words.
+            - Finish the answer completely.
+            - Never stop in the middle of a sentence or bullet point.
+            - Use at most 5 bullet points.
+            - Never exceed 6 short lines.
+            - Do not write long paragraphs.
+            - Use simple language.
+            - Do not use Markdown.
+            - Do not use **, ##, *, or numbered headings.
+            - Do not mix English unless it is an official scheme name.
+            - If the user wants more information, ask them to ask a follow-up question.
+
+
+
+            {extra_context}
+
+            Citizen Question:
+            {request.message}
+            """,
             },
         ],
     )
 
     reply = response.choices[0].message.content
+    print(response.choices[0].finish_reason)
+    print(f"OpenRouter took {time.time() - start:.2f} seconds")
 
 
     # ---------- Checklist ----------
@@ -354,10 +394,38 @@ def assistant(request: ChatRequest):
 
 
     # ---------- Recommendations ----------
+
+    recommendation_query = request.message
+
+    if request.language != "en-IN":
+
+        translation = client.chat.completions.create(
+            model="deepseek/deepseek-chat-v3",
+            max_tokens=50,
+            messages=[
+                {
+                    "role": "system",
+                    "content": "Translate the following text into simple English. Return only the translation."
+                },
+                {
+                    "role": "user",
+                    "content": request.message
+                }
+            ]
+        )
+
+        recommendation_query = translation.choices[0].message.content.strip()
+
+    print("Recommendation Query:", recommendation_query)
+
     recommendations = recommend_schemes(
-        request.message,
+        recommendation_query,
         SCHEMES
     )
+    print("User message:", request.message)
+    
+    print("Recommendations found:", len(recommendations))
+
     summary = ""
 
     if recommendations:
@@ -389,6 +457,7 @@ async def speech_to_text(
     language: str = Form("en-IN")
 ):
     print("Selected language:", language)
+    start = time.time()
 
     api_key = os.getenv("GNANI_API_KEY")
 
@@ -414,7 +483,7 @@ async def speech_to_text(
     }
 
     try:
-
+        
         response = requests.post(
             url,
             headers=headers,
@@ -422,6 +491,7 @@ async def speech_to_text(
             data=data,
             timeout=60
         )
+        print(f"STT took {time.time() - start:.2f} seconds")
 
         return response.json()
 
@@ -436,6 +506,7 @@ async def speech_to_text(
         )
 @app.post("/text-to-speech")
 def text_to_speech(request: TTSRequest):
+    start = time.time()
 
     api_key = os.getenv("GNANI_API_KEY")
 
@@ -447,7 +518,7 @@ def text_to_speech(request: TTSRequest):
     print("Text:", request.text)
 
     payload = {
-        "text": request.text[:300],
+        "text": request.text,
         "voice": "Pranav",
         "model": "vachana-voice-v3",
         "audio_config": {
@@ -466,6 +537,7 @@ def text_to_speech(request: TTSRequest):
             json=payload,
             timeout=60
         )
+        print(f"TTS took {time.time() - start:.2f} seconds")
 
         print("=" * 60)
         print("Gnani Status:", response.status_code)
