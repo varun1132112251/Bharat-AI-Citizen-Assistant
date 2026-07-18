@@ -37,7 +37,7 @@ Bharat AI Citizen Assistant is an AI-powered web application that helps citizens
 
 ## ✨ Features
 - 🤖 AI Government Assistant
-- 🌐 Multilingual Support (English, Hindi, Telugu, Tamil, Kannada, Bengali)
+- 🌐 Multilingual Support (English, Hindi, Telugu, Tamil, Kannada)
 - 🎤 Speech-to-Text (Gnani AI)
 - 🔊 Text-to-Speech (Gnani AI)
 - 🏛 Government Scheme Recommendations
